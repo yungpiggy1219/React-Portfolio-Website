@@ -2,7 +2,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 export default function About() {
     return (
-        <Container className='align-middle'>
+        <Container className=''>
             <Row>
                 <h1>/about</h1>
             </Row>
@@ -28,7 +28,7 @@ export default function About() {
                 <p>
                     HTML & CSS / JavaScript / Java / Python / C++ / Data Analysis /
                     UX Design / Prototyping / Wireframing / Figma /
-                    Human-Computer Interaction/ User Experience Research /
+                    Human-Computer Interaction/ User Experience Research
                 </p>
             </Row>
         </Container>
