@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 export default function Home() {
     return (
-        <Container>
+        <Container className="">
             <h1>Hello, <br />
                 my name is Yung-Chu, <br />
                 <div className='typing'> <div className='fixWord'>and I am a</div>
