@@ -50,9 +50,19 @@ h1 {
 
 .container {
   height: 100vh;
-  width: 80vw;
-  justify-content: center;
-  align-items: center;
+  width: 2000px;
+  text-align: left;
+}
+
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  color: #FF007A !important;
+  align-content: flex-start;
+}
+
+.active{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFE600 !important;
 }
 
 /* -------- Typing Effect -------- */
