@@ -1,22 +1,36 @@
+import { Container, Row, Col } from 'react-bootstrap';
+
 export default function About() {
-  return (
-    <section id="about">
-        <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                <div class="container">
-                    <h1>Hello,
-                        my name is Yung-Chu,
-                        and I am a <span class="typed-text"></span><span class="cursor">&nbsp;</span></h1>
-                </div>
-            </div>
-            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <img
-                    className="object-cover object-center rounded"
-                    alt="hero"
-                    src="./coding.svg"
-                />
-            </div>
-        </div>
-    </section>
-);
+    return (
+        <Container className='align-middle'>
+            <Row>
+                <h1>/about</h1>
+            </Row>
+
+            <Row>
+                <p>Hi, my name is Yung-Chu Chuang. I’m a UX engineer with design,
+                    research, and software engineer skills. My background in Informatics
+                    with specialization in Human-Computer Interaction and Art allows me
+                    to understand problems from both a technology and creative perspective.
+                    My mission is to end user’s misery by bringing the best experience to them.
+                </p>
+            </Row>
+
+            <Row>
+                <a>resume</a>
+            </Row>
+
+            <Row>
+                <h1>/skill</h1>
+            </Row>
+
+            <Row>
+                <p>
+                    HTML & CSS / JavaScript / Java / Python / C++ / Data Analysis /
+                    UX Design / Prototyping / Wireframing / Figma /
+                    Human-Computer Interaction/ User Experience Research /
+                </p>
+            </Row>
+        </Container>
+    );
 }

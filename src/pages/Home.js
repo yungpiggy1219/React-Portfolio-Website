@@ -1,8 +1,10 @@
+import { Container, Row, Col } from 'react-bootstrap';
+
 import Typewriter from 'typewriter-effect';
 
 export default function Home() {
     return (
-        <div className="container ">
+        <Container>
             <h1>Hello, <br />
                 my name is Yung-Chu, <br />
                 <div className='typing'> <div className='fixWord'>and I am a</div>
@@ -19,7 +21,7 @@ export default function Home() {
                     />
                 </div>
             </h1>
-        </div >
+        </Container>
     );
 };
 
