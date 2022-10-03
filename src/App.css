@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -54,15 +55,20 @@ h1 {
   text-align: left;
 }
 
-.nav-link{
+.nav-link {
   font-family: 'Montserrat', sans-serif;
   color: #FF007A !important;
   align-content: flex-start;
 }
 
-.active{
+.active {
   font-family: 'Montserrat', sans-serif;
   color: #FFE600 !important;
+}
+
+.iconify {
+  color: #FF007A;
+  margin-right: 1.5rem;
 }
 
 /* -------- Typing Effect -------- */
@@ -77,8 +83,64 @@ h1 {
 }
 
 .fixWord {
-  margin-right: 10px;
+  margin-right: 1rem;
+}
+
+/* -------- End of Typing Effect -------- */
+
+
+
+/* -------- Hover Button Effect -------- */
+/* a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #FF007A;
+  transition: all 200ms ease-out;
+} */
+
+/* .resume-btn {
+  transition: all 200ms ease-out;
+}
+
+.resume-btn:hover  {
+  background-color: rgb(83, 5, 156) !important;
+  border: rgb(255, 0, 0) !important;
+  transition: all 200ms ease-out;
+} */
+.hoverUnderline {
+  /* background-color: rgb(235, 215, 253) !important; */
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .hoverUnderline:hover {
+  text-decoration: underline;
+  transition: all 200ms ease-out;
+} */
+
+.hoverUnderline:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  background: #000;
+  height: 4px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.hoverUnderline:hover:after,
+.hoverUnderline:focus:after,
+.hoverUnderline:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
 }
 
 
-/* -------- End of Typing Effect -------- */
+
+
+/* -------- End of Hover Button Effect -------- */
