@@ -2,46 +2,41 @@ import logo from './logo.svg';
 import './App.css';
 
 import { Container, Row, Col } from 'react-bootstrap';
-import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Nav from 'react-bootstrap/Nav';
 
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import Navbar from "./pages/Navbar";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <ul className="App-header">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About Us</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact Us</Link>
-          </li>
-        </ul>
-        <Routes>
-          <Route exact path='/' element={< Home />}></Route>
-          <Route exact path='/about' element={< About />}></Route>
-          <Route exact path='/contact' element={< Contact />}></Route>
-        </Routes>
-      </div>
-    </Router>
+    <main>
+      <Router>
+        <div className="App">
+          <Row>
+            <Col md={2} className=''>
+              <Nav variant="tabs" defaultActiveKey="/" className="flex-column">
+                <Link to="/" className="nav-link active">home</Link>
+                <Link to="/about" className="nav-link">about</Link>
+                <Link to="/work" className="nav-link">work</Link>
+                <Link to="/contact" className="nav-link">contact</Link>
+              </Nav>
+            </Col>
 
-
-    // <main>
-    //   {/* <Navbar /> */}
-    //   {/* <Home /> */}
-    //   <Work />
-    //   <About />
-    //   <Contact />
-
-    // </main>
+            <Col>
+              <Routes>
+                <Route exact path='/' element={< Home />}></Route>
+                <Route exact path='/about' element={< About />}></Route>
+                <Route exact path='/work' element={< Work />}></Route>
+                <Route exact path='/contact' element={< Contact />}></Route>
+              </Routes>
+            </Col>
+          </Row>
+        </div>
+      </Router>
+    </main>
   );
 
 }
