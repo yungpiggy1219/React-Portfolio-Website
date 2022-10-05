@@ -2,9 +2,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 export default function About() {
     return (
-        <Container className=''>
+        <Container>
             <Row>
-                <h1>/about</h1>
+                <h1 className='mb-3'>/about</h1>
             </Row>
 
             <Row>
@@ -14,13 +14,14 @@ export default function About() {
                     to understand problems from both a technology and creative perspective.
                     My mission is to end user’s misery by bringing the best experience to them.
                 </p>
+
             </Row>
 
-            <Row>
-                <a>resume</a>
-            </Row>
+            <Row className='hoverUnderline'>
+                <div href="#" target="_blank">resume</div>
 
-            <Row>
+            </Row>
+            <Row className='mt-5 mb-3'>
                 <h1>/skill</h1>
             </Row>
 
