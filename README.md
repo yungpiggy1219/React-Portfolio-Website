@@ -8,7 +8,7 @@ I started off with creating mockups of my portfolio using [Figma](https://www.fi
 
 
 ## Built With
-This project was built using these tools, frameworks, and libraries
+This project was built using these resources
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [React.js](https://reactjs.org/)
@@ -16,3 +16,4 @@ This project was built using these tools, frameworks, and libraries
 - [React-router 6.4.1](https://reactrouter.com/en/6.4.1)
 - [Typewriter Effect](https://www.npmjs.com/package/typewriter-effect)
 - [Iconify](https://iconify.design/)
+- [Hover Underline](https://unclebigbay.com/how-to-create-an-hover-underline-animation-in-css)
