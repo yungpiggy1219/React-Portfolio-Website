@@ -1,6 +1,6 @@
 .App {
   /* text-align: center; */
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .App-logo {
@@ -46,14 +46,18 @@ body {
 }
 
 h1 {
-  font-weight: bold;
+  font-weight: bold !important;
   color: #FF007A;
+  line-height: 130% !important;
 }
 
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   color: #FF007A !important;
   align-content: flex-start;
+  font-weight: bold !important;
+  padding: 1rem !important;
+  margin: 0 !important;
 }
 
 .active {
@@ -83,6 +87,37 @@ h1 {
 
 .fixWord {
   margin-right: 1rem;
+}
+
+.navBar {
+  display: grid;
+  align-items: center;
+  justify-content: end;
+}
+
+.myTitle {
+  color: #FF007A !important;
+  margin-top: 2%;
+  font-weight: bold;
+  position: absolute;
+  display: grid;
+  justify-content: end;
+}
+
+.mainPage {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: left;
+  margin-left: 5%;
+}
+
+.container {
+  width: 50vw !important;
+}
+.custom-btn {
+  color: #212427 !important;
+  text-decoration: none !important;
 }
 
 /* -------- End of Typing Effect -------- */
