@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import { Icon } from '@iconify/react';
 import Stack from 'react-bootstrap/Stack';
 import Button from 'react-bootstrap/Button';
