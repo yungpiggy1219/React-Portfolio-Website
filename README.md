@@ -18,3 +18,4 @@ This project was built using these resources
 - [Iconify](https://iconify.design/)
 - [Hover Underline](https://unclebigbay.com/how-to-create-an-hover-underline-animation-in-css)
 - [Animated Cursor](https://www.npmjs.com/package/react-animated-cursor)
+- [CSS Gallery Hover Effect](https://codepen.io/sashatran/pen/aJvaEG)
