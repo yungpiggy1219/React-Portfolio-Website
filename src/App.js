@@ -4,16 +4,15 @@ import AnimatedCursor from "react-animated-cursor"
 
 import { Row, Col } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
-import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
-
 
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
+
+import HalfaByte from "./pages/HalfaByte";
 
 function App() {
 
@@ -42,6 +41,8 @@ function App() {
             <Route path='/about' element={< About />}></Route>
             <Route path='/work' element={< Work />}></Route>
             <Route path='/contact' element={< Contact />}></Route>
+
+            <Route path='/work/half-byte' element={< HalfaByte />}></Route>
           </Routes>
         </Col>
       </Row>
