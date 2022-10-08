@@ -4,6 +4,9 @@ import halfbyte from "../works/halfbyte.png";
 import upcancer from "../works/upcancer.png";
 import likeex from "../works/likeex.jpg";
 
+import Nav from 'react-bootstrap/Nav';
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+
 export default function Other() {
     return (
         <Container class="wrapper">
@@ -12,23 +15,22 @@ export default function Other() {
                 <div class="wrapper">
                     <div class="media">
                         <div class="layer">
-                            <p>+ UI/UX Design</p>
+                            <Nav.Link as={NavLink} to="/work/likee-xdownloader">+ UI/UX Design</Nav.Link>
                         </div>
                         <img src={likeex} alt="Lkee XDownloader" />
                     </div>
                     <div class="media">
                         <div class="layer">
-                            <p>+ UX Research</p>
+                            <Nav.Link as={NavLink} to="/work/up-cancer">+ UX Research</Nav.Link>
                         </div>
                         <img src={upcancer} alt="Up Cancer Redesign" />
                     </div>
-                    <div class="media">
+                    <div class="media" >
                         <div class="layer">
-                            <p>+ Board Game Development</p>
+                            <Nav.Link as={NavLink} to="/work/half-byte">+ Board Game Development</Nav.Link>
                         </div>
                         <img src={halfbyte} alt="Half Byte Board Game Development" />
                     </div>
-                    <a  href="/work/half-byte">12312312321312</a>
                 </div>
             </Row>
         </Container >

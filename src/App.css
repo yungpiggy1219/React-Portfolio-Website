@@ -51,6 +51,39 @@ h1 {
   line-height: 130% !important;
 }
 
+h4 {
+  margin-top: 0.8rem !important;
+  font-size: large !important;
+  font-weight: bold !important;
+  line-height: 130% !important;
+}
+
+h5 {
+  margin-top: 1rem !important;
+  font-weight: bold !important;
+  color: #FF007A;
+  line-height: 130% !important;
+
+}
+
+.subDiv .h5 {
+  font-weight: bold !important;
+  line-height: 130% !important;
+  color: #212427 !important;
+}
+
+h6 {
+  font-weight: bold !important;
+  color: #b9b9b9;
+  line-height: 130% !important;
+  font-style: italic !important;
+}
+
+.myFooter {
+  margin-top: 10% !important;
+  margin-bottom: 5%;
+}
+
 .nav-link {
   font-family: 'Montserrat', sans-serif;
   color: #FF007A !important;
@@ -74,6 +107,48 @@ h1 {
 
 .indexText {
   font-size: 0.5rem;
+}
+
+.backDiv {
+  width: fit-content !important;
+  display: flex;
+  margin-top: 2% !important;
+  margin-bottom: 5% !important;
+}
+
+.backDiv .nav-link {
+  color: #FF007A !important;
+}
+
+.projectMedia {
+  width: 15rem;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.projectMedia img {
+  max-width: 100%;
+  height: auto;
+}
+
+.projectImg img {
+  width: 25rem;
+  height: auto;
+}
+
+.projectCarousal {
+  width: auto;
+  height: 30rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  margin: 2rem;
 }
 
 /* -------- Typing Effect -------- */
@@ -125,12 +200,21 @@ h1 {
 }
 
 .custom-btn {
-  color: #212427 !important;
+  color: #FF007A !important;
   text-decoration: none !important;
+  border-color: #FF007A !important;
+  font-weight: bold !important;
+
+}
+
+.custom-btn:hover {
+  color: #FFE600 !important;
+  text-decoration: none !important;
+  background-color: #FF007A !important;
 }
 
 .image {
-  width: 300px;
+  width: 30rem;
 }
 
 /* -------- End of Typing Effect -------- */
@@ -176,14 +260,14 @@ h1 {
 }
 
 .media {
-  width: 300px;
-  height: 200px;
+  width: 25rem;
+  height: 20rem;
   overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px;
+  margin: 5rem;
 }
 
 .media img {
@@ -197,15 +281,15 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10px;
+  width: 1rem;
   height: 90%;
   background: #FFF;
   color: #151E3F;
   transition: all 0.9s ease;
-  margin: 5px !important;
+  margin: 1rem !important;
 }
 
-.layer p {
+.layer .nav-link {
   transition: all 0.9s ease;
   transform: scale(0.1)
 }
@@ -214,11 +298,11 @@ h1 {
   width: 70vw !important;
 }
 
-.galleryP p {
+.galleryP .nav-link {
   font-family: 'Inconsolata', monospace;
   text-align: center;
-  font-size: 15px;
-  letter-spacing: 1px;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
 }
 
 .media:hover .layer {
@@ -229,7 +313,7 @@ h1 {
   color: #FF007A;
 }
 
-.media:hover .layer p {
+.media:hover .layer .nav-link {
   transform: scale(1);
   transition: all 0.9s ease;
 }

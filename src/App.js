@@ -13,6 +13,8 @@ import Home from "./pages/Home";
 import Work from "./pages/Work";
 
 import HalfaByte from "./pages/HalfaByte";
+import UpCancer from "./pages/UpCancer";
+import LikeeX from "./pages/LikeeX";
 
 function App() {
 
@@ -27,10 +29,10 @@ function App() {
 
             <Nav className="flex-column">
             <Navbar.Brand as={NavLink} to="/" className='myTitle top-0'>Yung-Chu Chuang</Navbar.Brand>
-              <Nav.Link as={NavLink} to="/" end>home <span className='indexText'>0</span></Nav.Link>
-              <Nav.Link as={NavLink} to="/about">about <span className='indexText'>1</span></Nav.Link>
-              <Nav.Link as={NavLink} to="/work">work <span className='indexText'>2</span></Nav.Link>
-              <Nav.Link as={NavLink} to="/contact">contact <span className='indexText'>3</span></Nav.Link>
+              <Nav.Link className='hoverUnderline' as={NavLink} to="/" end>home <span className='indexText'>0</span></Nav.Link>
+              <Nav.Link className='hoverUnderline' as={NavLink} to="/about">about <span className='indexText'>1</span></Nav.Link>
+              <Nav.Link className='hoverUnderline' as={NavLink} to="/work">work <span className='indexText'>2</span></Nav.Link>
+              <Nav.Link className='hoverUnderline' as={NavLink} to="/contact">contact <span className='indexText'>3</span></Nav.Link>
             </Nav>
           </Row>
         </Col>
@@ -43,6 +45,8 @@ function App() {
             <Route path='/contact' element={< Contact />}></Route>
 
             <Route path='/work/half-byte' element={< HalfaByte />}></Route>
+            <Route path='/work/likee-xdownloader' element={< LikeeX />}></Route>
+            <Route path='/work/up-cancer' element={< UpCancer />}></Route>
           </Routes>
         </Col>
       </Row>
