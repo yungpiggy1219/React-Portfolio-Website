@@ -204,7 +204,6 @@ h6 {
   text-decoration: none !important;
   border-color: #FF007A !important;
   font-weight: bold !important;
-
 }
 
 .custom-btn:hover {
@@ -215,6 +214,19 @@ h6 {
 
 .image {
   width: 30rem;
+}
+
+.hoverUnderline .custom-btn {
+  color: #212427 !important;
+  text-decoration: none !important;
+  border-color: transparent !important;
+  font-weight: normal !important;
+}
+
+.hoverUnderline .custom-btn:hover {
+  color: #FF007A !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
 }
 
 /* -------- End of Typing Effect -------- */
