@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import AnimatedCursor from "react-animated-cursor"
+import ReactGA from 'react-ga';
 
 import { Row, Col } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
@@ -17,6 +18,8 @@ import UpCancer from "./pages/UpCancer";
 import LikeeX from "./pages/LikeeX";
 
 function App() {
+  const TRACKING_ID = "G-WN12DDJH7F";
+  ReactGA.initialize(TRACKING_ID);
 
   return (
     <Router>
@@ -28,7 +31,7 @@ function App() {
           <Row>
 
             <Nav className="flex-column">
-            <Navbar.Brand as={NavLink} to="/" className='myTitle top-0'>Yung-Chu Chuang</Navbar.Brand>
+              <Navbar.Brand as={NavLink} to="/" className='myTitle top-0'>Yung-Chu Chuang</Navbar.Brand>
               <Nav.Link className='hoverUnderline' as={NavLink} to="/" end>home <span className='indexText'>0</span></Nav.Link>
               <Nav.Link className='hoverUnderline' as={NavLink} to="/about">about <span className='indexText'>1</span></Nav.Link>
               <Nav.Link className='hoverUnderline' as={NavLink} to="/work">work <span className='indexText'>2</span></Nav.Link>
