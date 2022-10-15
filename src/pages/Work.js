@@ -1,11 +1,11 @@
-import { Container, Row, Col, Placeholder } from 'react-bootstrap';
+import { Container, Row} from 'react-bootstrap';
 
 import halfbyte from "../works/halfbyte.png";
 import upcancer from "../works/upcancer.png";
 import likeex from "../works/likeex.jpg";
 
 import Nav from 'react-bootstrap/Nav';
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default function Other() {
     return (

@@ -1,7 +1,7 @@
-import { Container, Row, Col, Placeholder } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 
 import Nav from 'react-bootstrap/Nav';
-import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
 

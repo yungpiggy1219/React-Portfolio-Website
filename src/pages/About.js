@@ -1,4 +1,6 @@
 import { Container, Row } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import { Icon } from '@iconify/react';
 
 export default function About() {
     return (
@@ -18,8 +20,7 @@ export default function About() {
             </Row>
 
             <Row className='hoverUnderline'>
-                <div href="#" target="_blank">resume</div>
-
+                    <a><Icon icon="akar-icons:file" /><Button href="https://docs.google.com/document/d/1zS5TzMBmI4uDuIvWG0UaaOOnet9qHfEln2pmdUpNA74/edit?usp=sharing" target="_blank" variant="link" className='custom-btn'>resume</Button></a>
             </Row>
             <Row className='mt-5 mb-3'>
                 <h1>/skill</h1>
