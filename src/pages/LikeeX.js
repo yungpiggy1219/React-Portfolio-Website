@@ -22,46 +22,48 @@ export default function LikeeX() {
                 <h1 className='mb-3'>/Likee XDownloader</h1>
                 <h6 className='mb-3'>UI/UX Design</h6>
                 <p>
-                    Likee XDownloader is a video downloader Android app for Likee.
+                    Likee XDownloader is an Android app designed to help users download videos from the social media platform Likee.
                 </p>
 
-                <p>These are some of the things I was in charged of:
+                <p>As the UI/UX designer for this project, I was responsible for a range of tasks that included:
                 </p>
                 <div>
                     <ul>
                         <li>
-                            <b>UX Design</b> - After the director gave instructions on what product to develop, I did a desk research from market research to competitive analysis. Within a week, I proposed the design to the director. With a little adjustment.
+                            <b>UX Design</b> -  Conducted desk research, including market research and competitive analysis, to identify opportunities for the app. Within a week, proposed a design to the director based on research findings and user needs.
+                        </li>
+                        <li>
+                            <b>UI Design</b> - Designed the UI using Figma, including wireframes and user flows.
+
+                        </li>
+
+                        <li>
+                            <b>Developer Assistance </b>- Collaborated with the Android engineer to ensure seamless integration of the UI with the back-end. Helped with layout, functions, animations, analytic code insertions, and debugging as needed.
 
                         </li>
                         <li>
-                            <b>UI Design</b> - After the proposal was set, I started designing the UI from wire frames and user flows with Figma.
-
-                        </li>
-
-                        <li>
-                            <b>Developer Assistance </b>- I helped my colleague to layout the UI using Kotlin, and some responsive testing while the developer works on the back-end. Whenever the developer ran into issues, I helped in debugging and figuring out where the code went wrong.
+                            <b>Marketing</b> - Conducted research on the current market and used app analytics tools, such as App Annie, to inform design decisions.
 
                         </li>
                         <li>
-                            <b>Marketing</b> - I researched and learned about the current market and using app analytic tools such as App Annie
-
-                        </li>
-                        <li>
-                            <b>Visual Content Creation</b> - Besides the actual app, I also worked on the Graphic Design and Video Editing for the Google App Store content.
-
+                            <b>Visual Content Creation</b> - Created engaging visual content, including graphic design and video editing, for the app and the Google App Store.
                         </li>
                     </ul>
                 </div>
 
                 <h5>
-                    Discover
+                    Research
                 </h5>
-                <p>
-                    Our only requirement was to develop a video downloader for a specific app. We did some market research to find the best application to make the downloader for. We chose Likee because there weren’t many competitors compared Facebook, Instagram, TikTok, and other apps. However, Likee was rising in users in many countries. We felt it would be a great opportunity to enter the competition with Likee.
-                </p>
+                <p>To begin, I conducted extensive research to understand Likee's user base, their needs and preferences, and the competitive landscape. This research involved market research and competitive analysis. I used app analytic tools like App Annie to analyze user behavior and identify opportunities for growth. From this research, I gained valuable insights into user behavior and preferences, which informed the design of the app.</p>
+
+                <h5>Ideation</h5>
+<p>Using the insights gathered from my research, I began the ideation phase, which involved brainstorming ideas and creating initial wireframes and user flows. I used Figma to create wireframes, which allowed me to quickly iterate and refine my designs based on user feedback.</p>
                 <h5>
-                    Design
+                    Prototyping
                 </h5>
+
+<p>Once I had a solid understanding of the user needs and the app's functionality, I created prototypes that allowed me to test and refine the design. I worked closely with the Android engineer to ensure that the layout and functions were seamless, and I provided responsive testing to ensure that the app worked smoothly on a range of devices.</p>
+
                 <Row className='galleryP'>
                     <div class="wrapper">
                         <div class="projectMedia">
@@ -75,12 +77,19 @@ export default function LikeeX() {
                         </div>
                     </div>
                 </Row>
+<h5>
+                    Launch
+                </h5>
+Finally, I created visual content for the Google App Store, including graphic design and video content, to promote the app to potential users. After testing and refining the app, we launched it on the Google Play Store.
+
                 <h5>
                     Lessons Learned
                 </h5>
 
-                <p>
-                    I learned a lot in this project. In this project, I pretty much participated a little of everything. I started with no experience in Figma, or even any real UI design experiences. I created the UI mock-up and prototypes, assisted the Android engineer with some layout, functions, animations, analytic code insertions, and debugging, wrote the copy for the play store, communicated with multiple translators, created tutorial images, and lastly created the promo video using Adobe After Effects and iMovie.
+                <p>Throughout this project, I learned the importance of being adaptable and willing to take on a range of tasks. As someone with no previous experience in UI design, I quickly became proficient in Figma and was able to create a polished and professional UI for Likee XDownloader. I also developed my skills in developer assistance, marketing research, and visual content creation, making me a versatile and valuable member of any design team.
+                </p>
+
+ <p>I am passionate about UI/UX design and believe that my experience with Likee XDownloader demonstrates my ability to follow a design thought process and create innovative and user-friendly designs. I am excited to bring my skills and enthusiasm to a new role and to continue learning and growing as a designer.
                 </p>
 
 
@@ -96,7 +105,7 @@ export default function LikeeX() {
                         <Nav.Link as={NavLink} to="/work"><Icon style={{ fontSize: '36px' }} icon="bx:arrow-back" /> Back</Nav.Link>
                     </div>
                     <h5>
-                        © 2022 yung chu chuang
+                        © 2023 yung chu chuang
                     </h5>
                 </div>
             </Row>
