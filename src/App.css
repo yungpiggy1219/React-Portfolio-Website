@@ -20,7 +20,14 @@
   }
 }
 
+/*Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One');
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One');
+/*@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One');*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39'); /*Barcode Font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700');
 
 html {
   /* this makes sure the padding and the border is included in the box sizing */
@@ -72,18 +79,22 @@ h6 {
 }
 
 .nav-link {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Agdasima', sans-serif;
   color: #FF007A !important;
   align-content: flex-start;
   font-weight: bold !important;
   padding: 1rem !important;
   margin: 0 !important;
-  font-size: 1.2rem !important;
+  font-size: 1.5rem !important;
   font-weight: bold !important;
 }
 
+.sectionTitle {
+  font-family: 'Moirai One', cursive;
+}
+
 .active {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Agdasima', sans-serif;
   color: #FFE600 !important;
 }
 
@@ -161,12 +172,16 @@ h6 {
 
 .myTitle {
   color: #FF007A !important;
+  /*font-family: 'Passion One', cursive;
+  font-family: 'Moirai One', cursive;
+  font-family: 'Roboto', sans-serif;*/
+  font-family: 'Agdasima', sans-serif;
   margin-top: 2%;
   font-weight: bold;
   position: absolute;
   display: grid;
   justify-content: end;
-  font-size: 1.2rem !important;
+  font-size: 2.2rem !important;
 }
 
 .mainPage {

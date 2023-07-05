@@ -1,8 +1,8 @@
 import { Container, Row} from 'react-bootstrap';
 
-import halfbyte from "../works/halfbyte.png";
-import upcancer from "../works/upcancer.png";
-import likeex from "../works/likeex.jpg";
+import halfbyte from "../images/halfbyte-banner.png";
+import upcancer from "../images/upcancer-banner.png";
+import likeex from "../images/likee-banner.png";
 
 import Nav from 'react-bootstrap/Nav';
 import { NavLink } from 'react-router-dom';
@@ -11,7 +11,7 @@ export default function Other() {
     return (
         <Container class="wrapper">
             <Row className='galleryP'>
-                <h1 className='mb-3'>/work</h1>
+                <h1 className='sectionTitle mb-3'>/work</h1>
                 <div class="wrapper">
                     <div class="media">
                         <div class="layer">

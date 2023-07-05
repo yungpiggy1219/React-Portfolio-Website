@@ -7,16 +7,16 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import { Icon } from '@iconify/react';
 
-import ucBanner from "../works/upcancer-banner.png";
-import ucWalkthrough from "../works/uc-walkthrough.jpg";
-import ucSurvey from "../works/uc-survey.png";
-import ucPoorVis from "../works/uc-poorvisual.png";
-import ucInconsis from "../works/uc-inconsistant.png";
-import ucwframe1 from "../works/uc-wf1.png";
-import ucwframe2 from "../works/uc-wf2.png";
-import ucwframe3 from "../works/uc-wf3.png";
-import ucwframe4 from "../works/uc-wf4.png";
-import ucwframe5 from "../works/uc-wf5.png";
+import ucBanner from "../../images/upcancer-banner.png";
+import ucWalkthrough from "../../images/uc-walkthrough.jpg";
+import ucSurvey from "../../images/uc-survey.png";
+import ucPoorVis from "../../images/uc-poorvisual.png";
+import ucInconsis from "../../images/uc-inconsistant.png";
+import ucwframe1 from "../../images/uc-wf1.png";
+import ucwframe2 from "../../images/uc-wf2.png";
+import ucwframe3 from "../../images/uc-wf3.png";
+import ucwframe4 from "../../images/uc-wf4.png";
+import ucwframe5 from "../../images/uc-wf5.png";
 
 export default function UpCancer() {
     return (

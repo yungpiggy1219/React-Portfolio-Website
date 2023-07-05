@@ -7,7 +7,7 @@ export default function Contact() {
     return (
         <Container className=''>
             <Row>
-                <h1 className='mb-3'>/contact</h1>
+                <h1 className='sectionTitle mb-3'>/contact</h1>
             </Row>
             <Stack gap={4}>
                 <Row className='hoverUnderline'>

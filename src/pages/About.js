@@ -6,7 +6,7 @@ export default function About() {
     return (
         <Container>
             <Row>
-                <h1 className='mb-3'>/about</h1>
+                <h1 className='sectionTitle mb-3'>/about</h1>
             </Row>
 
             <Row>
@@ -22,8 +22,8 @@ export default function About() {
             <Row className='hoverUnderline'>
                     <a><Icon icon="akar-icons:file" /><Button href="https://docs.google.com/document/d/1zS5TzMBmI4uDuIvWG0UaaOOnet9qHfEln2pmdUpNA74/edit?usp=sharing" target="_blank" variant="link" className='custom-btn'>resume</Button></a>
             </Row>
-            <Row className='mt-5 mb-3'>
-                <h1>/skill</h1>
+            <Row className='mt-5'>
+                <h1 className='sectionTitle mb-3'>/skill</h1>
             </Row>
 
             <Row>

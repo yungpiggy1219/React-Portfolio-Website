@@ -6,14 +6,14 @@ import Button from 'react-bootstrap/Button';
 
 import { Icon } from '@iconify/react';
 
-import hbBanner from "../works/halfbyte-banner.png";
-import hbLogic from "../works/halfbyte-logic.png";
-import hbCardFace from "../works/halfbyte-cardface.png.png";
-import hbCardBack from "../works/halfbyte-cardback.png";
-import hbCardDesign from "../works/halfbyte-carddesign.png";
-import hbRender1 from "../works/halfbyte-box.png";
-import hbRender2 from "../works/halfbyte-openbox.png";
-import hbRender3 from "../works/halfbyte-openbox2.png";
+import hbBanner from "../../images/halfbyte-banner.png";
+import hbLogic from "../../images/halfbyte-logic.png";
+import hbCardFace from "../../images/halfbyte-cardface.png.png";
+import hbCardBack from "../../images/halfbyte-cardback.png";
+import hbCardDesign from "../../images/halfbyte-carddesign.png";
+import hbRender1 from "../../images/halfbyte-box.png";
+import hbRender2 from "../../images/halfbyte-openbox.png";
+import hbRender3 from "../../images/halfbyte-openbox2.png";
 
 export default function HalfaByte() {
     return (

@@ -13,9 +13,9 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
 
-import HalfaByte from "./pages/HalfaByte";
-import UpCancer from "./pages/UpCancer";
-import LikeeX from "./pages/LikeeX";
+import HalfaByte from "./pages/work/HalfaByte";
+import UpCancer from "./pages/work/UpCancer";
+import LikeeX from "./pages/work/LikeeX";
 
 function App() {
   const TRACKING_ID = "G-WN12DDJH7F";
@@ -31,7 +31,7 @@ function App() {
           <Row>
 
             <Nav className="flex-column">
-              <Navbar.Brand as={NavLink} to="/" className='myTitle top-0'>Yung-Chu Chuang</Navbar.Brand>
+              <Navbar.Brand as={NavLink} to="/" className='myTitle top-0'>yungchuchuang</Navbar.Brand>
               <Nav.Link className='hoverUnderline' as={NavLink} to="/" end>home <span className='indexText'>0</span></Nav.Link>
               <Nav.Link className='hoverUnderline' as={NavLink} to="/about">about <span className='indexText'>1</span></Nav.Link>
               <Nav.Link className='hoverUnderline' as={NavLink} to="/work">work <span className='indexText'>2</span></Nav.Link>

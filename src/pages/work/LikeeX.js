@@ -5,10 +5,10 @@ import { NavLink } from 'react-router-dom';
 
 import { Icon } from '@iconify/react';
 
-import likee from "../works/likee-banner.png";
-import likee1 from "../works/likee1.webp";
-import likee2 from "../works/likee2.webp";
-import likee3 from "../works/likee3.webp";
+import likee from "../../images/likee-banner.png";
+import likee1 from "../../images/likee1.webp";
+import likee2 from "../../images/likee2.webp";
+import likee3 from "../../images/likee3.webp";
 
 
 export default function LikeeX() {
