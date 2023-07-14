@@ -16,6 +16,9 @@ import Work from "./pages/Work";
 import HalfaByte from "./pages/work/HalfaByte";
 import UpCancer from "./pages/work/UpCancer";
 import LikeeX from "./pages/work/LikeeX";
+import MonsterDex from "./pages/work/MonsterDex";
+import ProjectPlanet from "./pages/work/ProjectPlanet";
+import SharkSimulator from "./pages/work/SharkSimulator";
 
 function App() {
   const TRACKING_ID = "G-WN12DDJH7F";
@@ -31,7 +34,7 @@ function App() {
           <Row>
 
             <Nav className="flex-column">
-              <Navbar.Brand as={NavLink} to="/" className='myTitle top-0'>yungchuchuang</Navbar.Brand>
+              <Navbar.Brand as={NavLink} to="/" className='myTitle top-0'>YC</Navbar.Brand>
               <Nav.Link className='hoverUnderline' as={NavLink} to="/" end>home <span className='indexText'>0</span></Nav.Link>
               <Nav.Link className='hoverUnderline' as={NavLink} to="/about">about <span className='indexText'>1</span></Nav.Link>
               <Nav.Link className='hoverUnderline' as={NavLink} to="/work">work <span className='indexText'>2</span></Nav.Link>
@@ -50,6 +53,10 @@ function App() {
             <Route path='/work/half-byte' element={< HalfaByte />}></Route>
             <Route path='/work/likee-xdownloader' element={< LikeeX />}></Route>
             <Route path='/work/up-cancer' element={< UpCancer />}></Route>
+
+            <Route path='/work/monsterdex' element={< MonsterDex />}></Route>
+            <Route path='/work/project-planet' element={< ProjectPlanet />}></Route>
+            <Route path='/work/shark-simulator' element={< SharkSimulator />}></Route>
           </Routes>
         </Col>
       </Row>
