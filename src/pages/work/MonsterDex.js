@@ -1,5 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 
+import Footer from "../Footer";
+
 import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
 import Button from "react-bootstrap/Button";
@@ -194,14 +196,12 @@ export default function MonsterDex() {
             MonsterDex on the App Store
           </Button>
         </div>
-        <div className="myFooter">
-          <div className="hoverUnderline backDiv">
-            <Nav.Link as={NavLink} to="/work">
-              <Icon style={{ fontSize: "36px" }} icon="bx:arrow-back" /> Back
-            </Nav.Link>
-          </div>
-          <h5>© 2023 yung chu chuang</h5>
+        <div className="hoverUnderline backDiv">
+          <Nav.Link as={NavLink} to="/work">
+            <Icon style={{ fontSize: "36px" }} icon="bx:left-arrow-alt" /> Back
+          </Nav.Link>
         </div>
+        <Footer />
       </Row>
     </Container>
   );

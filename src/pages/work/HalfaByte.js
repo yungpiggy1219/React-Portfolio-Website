@@ -1,14 +1,9 @@
-import { Container, Row, Col, Placeholder } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
 
 import Footer from "../Footer";
 
 import Nav from "react-bootstrap/Nav";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  NavLink,
-} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 
 import { Icon } from "@iconify/react";
@@ -35,6 +30,18 @@ export default function HalfaByte() {
         <h1 className="mb-3">/Half Byte! -It's a Nybble</h1>
         <h6 className="mb-3">Board Game Development</h6>
         <p>Half Byte is a fast pace card game.</p>
+        <p>
+          <b>Role</b> Board Game Designer{" "}
+        </p>
+        <p>
+          <b>Team Member </b> Solo Project{" "}
+        </p>
+        <p>
+          <b>Duration</b> August 2020 | August 2023{" "}
+        </p>
+        <p>
+          <b>Tools</b> Adobe Dimesion | Figma | Illustrator | Blender
+        </p>
         <p>
           This is a board game I’m creating on my own. This game is the first
           game I’ve created and hosted playtesting sessions. Most of my other
@@ -108,25 +115,54 @@ export default function HalfaByte() {
         <Row className="galleryP">
           <div class="wrapper">
             <div class="projectMedia">
-              <img src={hbRender1} alt="likee-app" />
+              <img src={hbRender1} alt="Box Design Rendering" />
             </div>
             <div class="projectMedia">
-              <img src={hbRender2} alt="likee-share" />
+              <img src={hbRender2} alt="Layout Render with Box" />
             </div>
             <div class="projectMedia">
-              <img src={hbRender3} alt="likee-gallery" />
+              <img src={hbRender3} alt="Layout Render" />
             </div>
           </div>
         </Row>
 
-        <div>
+        <div className="mb-3">
           <Button
             href="https://www.kickstarter.com/projects/axltgamestudio/half-byte-its-a-nybble-a-fast-pace-strategic-game"
             target="_blank"
             variant="outline"
             className="custom-btn"
           >
-            Kickstarter Campaign
+            1st Kickstarter Campaign (Physical Ver.)
+          </Button>
+        </div>
+
+        <h5>Relaunch (Print & Play Ver.) </h5>
+        <p>
+          Two year later, after I have more spare time, I spend around 2 months
+          finalizing a <b>print & play version</b> of the game. From the
+          previous campaign, I've learned that I need a <b>promotion video</b>,
+          better organized story, and more appealing images for the campaign. In
+          the relaunch, I've created a video using <b>Blender</b>, and created a
+          story with Figma.
+        </p>
+        <div className="video-container mb-3">
+          <iframe
+            src="https://www.kickstarter.com/projects/axltgamestudio/half-byte-its-a-nybble/widget/video.html"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            title="Kickstarter video player"
+          ></iframe>
+        </div>
+        <div>
+          <Button
+            href="http://kck.st/42tEibU"
+            target="_blank"
+            variant="outline"
+            className="custom-btn"
+          >
+            2nd Kickstarter Campaign (Print & Play Ver.)
           </Button>
         </div>
 
