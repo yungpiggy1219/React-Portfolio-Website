@@ -1,8 +1,3 @@
-.App {
-  /* text-align: center; */
-  /* height: 100vh; */
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,21 +9,6 @@
   }
 }
 
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
-
-/* .App-link {
-  color: #61dafb;
-} */
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -39,31 +19,46 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css2?family=Passion+One");
+@import url("https://fonts.googleapis.com/css2?family=Moirai+One");
+/*@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One');*/
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39"); /*Barcode Font*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700");
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@700");
+
+html {
+  /* this makes sure the padding and the border is included in the box sizing */
+  box-sizing: border-box;
+  overflow-x: hidden !important;
+}
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
-  font-weight: bold !important;
-  color: #FF007A;
+  font-weight: 800 !important;
+  color: #ff007a;
+  font-size: 2.6rem !important;
   line-height: 130% !important;
 }
 
 h4 {
   margin-top: 0.8rem !important;
-  font-size: large !important;
-  font-weight: bold !important;
+  font-size: 1.5rem !important;
+  font-weight: 800 !important;
   line-height: 130% !important;
+  color: #3f3f3f;
 }
 
 h5 {
-  margin-top: 1rem !important;
-  font-weight: bold !important;
-  color: #FF007A;
+  margin-top: 1.2rem !important;
+  font-weight: 800 !important;
+  font-size: 2.3rem !important;
+  color: #ff007a;
   line-height: 130% !important;
-
 }
 
 .subDiv .h5 {
@@ -80,28 +75,37 @@ h6 {
 }
 
 .myFooter {
-  margin-top: 10% !important;
+  font-family: "Agdasima", sans-serif;
+  margin-top: 0 !important;
   margin-bottom: 5%;
 }
 
 .nav-link {
-  font-family: 'Montserrat', sans-serif;
-  color: #FF007A !important;
+  font-family: "Agdasima", sans-serif;
+  color: #ff007a !important;
   align-content: flex-start;
   font-weight: bold !important;
   padding: 1rem !important;
   margin: 0 !important;
-  font-size: 1.2rem !important;
+  font-size: 1.5rem !important;
   font-weight: bold !important;
 }
 
+.heroTitle {
+  font-family: "Agdasima", sans-serif;
+}
+
+.sectionTitle {
+  font-family: "Agdasima", sans-serif;
+}
+
 .active {
-  font-family: 'Montserrat', sans-serif;
-  color: #FFE600 !important;
+  font-family: "Agdasima", sans-serif;
+  color: #ffe600 !important;
 }
 
 .iconify {
-  color: #FF007A;
+  color: #ff007a;
   margin-right: 1.5rem;
 }
 
@@ -117,18 +121,32 @@ h6 {
 }
 
 .backDiv .nav-link {
-  color: #FF007A !important;
+  color: #ff007a !important;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .projectMedia {
-  width: 15rem;
-  height: auto;
-  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /*   overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem;
+  margin: 0.2rem; */
 }
 
 .projectMedia img {
@@ -158,8 +176,8 @@ h6 {
 }
 
 .Typewriter__wrapper {
-  color: #FFE600;
-  background: #FF007A;
+  color: #ffe600;
+  background: #ff007a;
 }
 
 .fixWord {
@@ -173,17 +191,29 @@ h6 {
 }
 
 .myTitle {
-  color: #FF007A !important;
-  margin-top: 2%;
+  color: #ff007a !important;
+  font-family: "Agdasima", sans-serif;
+  margin-top: 4%;
+  width: 5rem;
+  height: 5rem;
   font-weight: bold;
   position: absolute;
   display: grid;
-  justify-content: end;
-  font-size: 1.2rem !important;
+  justify-content: start;
+  font-size: 2.2rem !important;
+}
+
+.myTitle:hover {
+  font-weight: bold;
+  position: absolute;
+  display: grid;
+  justify-content: start;
+  background-color: #ffe600;
 }
 
 .mainPage {
-  height: 100vh;
+  height: 98vh;
+  width: 95vw;
   display: grid;
   align-items: center;
   justify-content: left;
@@ -191,52 +221,66 @@ h6 {
 }
 
 .container {
-  width: 50vw !important;
+  width: 60vw !important;
 }
 
 .myGallery {
-  background-color: #FF007A;
+  background-color: #ff007a;
   width: 100%;
 }
 
 .custom-btn {
-  color: #FF007A !important;
+  color: #ff007a !important;
   text-decoration: none !important;
-  border-color: #FF007A !important;
+  border-color: #ff007a !important;
   font-weight: bold !important;
-
 }
 
 .custom-btn:hover {
-  color: #FFE600 !important;
+  color: #ffe600 !important;
   text-decoration: none !important;
-  background-color: #FF007A !important;
+  background-color: #ff007a !important;
 }
 
 .image {
   width: 30rem;
 }
 
+.hoverUnderline .custom-btn {
+  color: #212427 !important;
+  text-decoration: none !important;
+  border-color: transparent !important;
+  font-weight: normal !important;
+}
+
+.hoverUnderline .custom-btn .resume {
+  color: #ff007a !important;
+}
+
+.hoverUnderline .custom-btn:hover {
+  color: #ff007a !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+}
+
 /* -------- End of Typing Effect -------- */
-
-
 
 /* -------- Hover Button Effect -------- */
 .hoverUnderline {
   position: relative;
   text-decoration: none;
   width: fit-content;
-  color: #FF007A;
+  color: #ff007a;
 }
 
 .hoverUnderline::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FFE600;
+  background-color: #ffe600;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
   transform: scaleX(0);
@@ -250,7 +294,7 @@ h6 {
 /* -------- End of Hover Button Effect -------- */
 
 /* -------- Gallery Hover Effect -------- */
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:200,300,400,600');
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:200,300,400,600");
 
 .wrapper {
   display: flex;
@@ -261,18 +305,19 @@ h6 {
 
 .media {
   width: 25rem;
-  height: 20rem;
+  height: 11rem;
   overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5rem;
+  margin: 0.2rem;
 }
 
 .media img {
-  max-width: 100%;
-  height: auto;
+  /*max-width: 100%;*/
+  height: 100%;
+  width: 100%;
 }
 
 .layer {
@@ -281,17 +326,21 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1rem;
-  height: 90%;
-  background: #FFF;
-  color: #151E3F;
+  width: 100%;
+  height: 100%;
+  background: #ff007a;
   transition: all 0.9s ease;
   margin: 1rem !important;
 }
 
 .layer .nav-link {
   transition: all 0.9s ease;
-  transform: scale(0.1)
+  transform: scale(0.1);
+  padding-top: 50px;
+  margin: 50px;
+  color: #ff007a !important;
+  text-align: center;
+  justify-content: center;
 }
 
 .galleryP {
@@ -299,36 +348,91 @@ h6 {
 }
 
 .galleryP .nav-link {
-  font-family: 'Inconsolata', monospace;
+  font-family: "Inconsolata", monospace;
   text-align: center;
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
 }
 
 .media:hover .layer {
-  opacity: 0.8;
-  width: 90%;
+  opacity: 1;
+  width: 100%;
   transition: all 0.5s ease;
-  /* background-color:#FFE600; */
-  color: #FF007A;
+  background-color: #ffe600;
 }
 
 .media:hover .layer .nav-link {
   transform: scale(1);
   transition: all 0.9s ease;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe600;
+  justify-content: center;
+  align-items: center;
 }
 
-
 @media (max-width: 800px) {
-  body {
-    transform: scale(0.6);
+  .container {
+    width: 90vw !important;
+  }
+  .navbar-expand {
+    justify-content: center !important;
+  }
+
+  .mobileRoute {
+    height: 80vh;
+    align-items: center;
+  }
+
+  .mobileTitle {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff007a !important;
+    font-size: 2rem !important;
+    margin: 1rem;
   }
 }
 
 @media (max-width: 600px) {
   .wrapper {
     display: block;
-    margin: 10px;
+    width: auto;
+  }
+
+  .media {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    padding: 0 !important;
+  }
+  .nav-link {
+    flex: 0 0 50%;
+    text-align: center;
+    background-color: #ffe600;
+  }
+
+  .navbar {
+    display: block !important;
+  }
+
+  .navbar .active {
+    font-family: "Agdasima", sans-serif;
+    color: #ffe600 !important;
+    background-color: #ff007a !important;
   }
 }
 
