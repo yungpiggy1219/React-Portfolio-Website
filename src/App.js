@@ -36,73 +36,44 @@ function App() {
   return (
     <div>
       {isMobile ? (
-        <div>
+        <div className="d-flex flex-column min-vh-100">
           {/* Mobile layout */}
           <Router>
-            <AnimatedCursor color="255,0,122" />
-            <Row>
-              <Col md={2} className="navBar">
-                <Row>
-                  <Nav className="flex-column">
-                    <Navbar.Brand as={NavLink} to="/" className="myTitle top-0">
-                      YC
-                    </Navbar.Brand>
-                    <Nav.Link
-                      className="hoverUnderline"
-                      as={NavLink}
-                      to="/"
-                      end
-                    >
-                      home <span className="indexText">0</span>
-                    </Nav.Link>
-                    <Nav.Link
-                      className="hoverUnderline"
-                      as={NavLink}
-                      to="/about"
-                    >
-                      about <span className="indexText">1</span>
-                    </Nav.Link>
-                    <Nav.Link
-                      className="hoverUnderline"
-                      as={NavLink}
-                      to="/work"
-                    >
-                      work <span className="indexText">2</span>
-                    </Nav.Link>
-                    <Nav.Link
-                      className="hoverUnderline"
-                      as={NavLink}
-                      to="/contact"
-                    >
-                      contact <span className="indexText">3</span>
-                    </Nav.Link>
-                  </Nav>
-                </Row>
-              </Col>
+            <Navbar.Brand as={NavLink} to="/" className="mobileTitle">
+              YUNGCHU CHUANG
+            </Navbar.Brand>
+            <Navbar>
+              <Nav>
+                <Nav.Link className="hoverUnderline" as={NavLink} to="/" end>
+                  home <span className="indexText">0</span>
+                </Nav.Link>
+                <Nav.Link className="hoverUnderline" as={NavLink} to="/about">
+                  about <span className="indexText">1</span>
+                </Nav.Link>
+                <Nav.Link className="hoverUnderline" as={NavLink} to="/work">
+                  work <span className="indexText">2</span>
+                </Nav.Link>
+                <Nav.Link className="hoverUnderline" as={NavLink} to="/contact">
+                  contact <span className="indexText">3</span>
+                </Nav.Link>
+              </Nav>
+            </Navbar>
+            <Row className="mobileRoute">
+              <Routes>
+                <Route path="/" element={<Home />}></Route>
+                <Route path="/about" element={<About />}></Route>
+                <Route path="/work" element={<Work />}></Route>
+                <Route path="/contact" element={<Contact />}></Route>
 
-              <Col className="mainPage">
-                <Routes>
-                  <Route path="/" element={<Home />}></Route>
-                  <Route path="/about" element={<About />}></Route>
-                  <Route path="/work" element={<Work />}></Route>
-                  <Route path="/contact" element={<Contact />}></Route>
+                <Route path="/work/half-byte" element={<HalfaByte />}></Route>
+                <Route
+                  path="/work/likee-xdownloader"
+                  element={<LikeeX />}
+                ></Route>
+                <Route path="/work/up-cancer" element={<UpCancer />}></Route>
 
-                  <Route path="/work/half-byte" element={<HalfaByte />}></Route>
-                  <Route
-                    path="/work/likee-xdownloader"
-                    element={<LikeeX />}
-                  ></Route>
-                  <Route path="/work/up-cancer" element={<UpCancer />}></Route>
-
-                  <Route
-                    path="/work/monsterdex"
-                    element={<MonsterDex />}
-                  ></Route>
-                  {/* <Route path='/work/project-planet' element={< ProjectPlanet />}></Route>*/}
-                  {/* <Route path='/work/shark-simulator' element={< SharkSimulator />}></Route> */}
-                  {/* <Route path='/❤️' element={< MoreAbout />}></Route> */}
-                </Routes>
-              </Col>
+                <Route path="/work/monsterdex" element={<MonsterDex />}></Route>
+              </Routes>
             </Row>
           </Router>
         </div>
