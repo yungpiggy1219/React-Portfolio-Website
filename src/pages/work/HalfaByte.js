@@ -132,19 +132,24 @@ export default function HalfaByte() {
         <p>The card back is inspired by a PCB board.</p>
 
         <h5>Mockup Rendering</h5>
-        <Row className="galleryP">
-          <div class="wrapper">
+        <Row>
+          <Col>
             <div class="projectMedia">
-              <img src={hbRender1} alt="Box Design Rendering" />
+            <img src={hbRender1} alt="Box Design Rendering" />
             </div>
+          </Col>
+          <Col>
             <div class="projectMedia">
-              <img src={hbRender2} alt="Layout Render with Box" />
+            <img src={hbRender2} alt="Layout Render with Box" />
             </div>
+          </Col>
+          <Col>
             <div class="projectMedia">
-              <img src={hbRender3} alt="Layout Render" />
+            <img src={hbRender3} alt="Layout Render" />
             </div>
-          </div>
+          </Col>
         </Row>
+
         <h5> Lessons Learned</h5>
         <p>
           I discovered the significant value of comprehensive playtesting
