@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import "./App.css";
 import AnimatedCursor from "react-animated-cursor";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 import { Row, Col } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
