@@ -402,13 +402,12 @@ h6 {
 @media (max-width: 600px) {
   .wrapper {
     display: block;
-    width: auto;
+    justify-self: center;
   }
 
   .media {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* or 'contain' or 'fill' */
+    width: 80vw;
+    height: auto;
   }
 }
 
