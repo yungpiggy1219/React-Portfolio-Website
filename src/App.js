@@ -27,6 +27,8 @@ import MonsterDex from "./pages/work/MonsterDex";
 
 //import MoreAbout from "./pages/MoreAbout";
 
+import RouteChangeTracker from "./RouteChangeTracker";
+
 function App() {
   const TRACKING_ID = "G-WN12DDJH7F";
   ReactGA.initialize(TRACKING_ID);
@@ -37,6 +39,7 @@ function App() {
   // Generate Page
   return (
     <div>
+      <RouteChangeTracker />
       {isMobile ? (
         <div className="d-flex flex-column min-vh-100">
           {/* Mobile layout */}
@@ -68,7 +71,10 @@ function App() {
                 <Route path="/contact" element={<Contact />}></Route>
 
                 <Route path="/work/half-byte" element={<HalfaByte />}></Route>
-                <Route path="/work/likee-xdownloader" element={<LikeeX />}></Route>
+                <Route
+                  path="/work/likee-xdownloader"
+                  element={<LikeeX />}
+                ></Route>
                 <Route path="/work/up-cancer" element={<UpCancer />}></Route>
 
                 <Route path="/work/monsterdex" element={<MonsterDex />}></Route>
