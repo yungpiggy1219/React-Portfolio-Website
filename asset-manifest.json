@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.46b57240.css",
-    "main.js": "/static/js/main.991a4028.js",
+    "main.css": "/static/css/main.52a17fa3.css",
+    "main.js": "/static/js/main.8d32ace6.js",
     "static/js/787.8ad45c4c.chunk.js": "/static/js/787.8ad45c4c.chunk.js",
     "static/media/likee-mockup.png": "/static/media/likee-mockup.d2aac89383c2e754078d.png",
     "static/media/halfbyte-openbox.png": "/static/media/halfbyte-openbox.4b7daac789a825b1458a.png",
+    "static/media/likee-banner.png": "/static/media/likee-banner.a449979dfa37fdb16fe3.png",
     "static/media/halfbyte-carddesign.png": "/static/media/halfbyte-carddesign.27ba6c46d9c82637964d.png",
+    "static/media/halfbyte-banner.png": "/static/media/halfbyte-banner.56942105b14121d49c33.png",
     "static/media/halfbyte-box.png": "/static/media/halfbyte-box.e267083335d87f40cc68.png",
-    "static/media/halfbyte-banner.png": "/static/media/halfbyte-banner.33960a93b0530f5c7a90.png",
     "static/media/likee-appannie.png": "/static/media/likee-appannie.f42d243668453c7dc816.png",
     "static/media/monsterdex1.png": "/static/media/monsterdex1.1460489f3f8c45c773df.png",
     "static/media/halfbyte-logic.png": "/static/media/halfbyte-logic.5532eb605ce7e48d6490.png",
     "static/media/monsterdex-banner.png": "/static/media/monsterdex-banner.8fb9b2a05ece45f9556e.png",
     "static/media/halfbyte-openbox2.png": "/static/media/halfbyte-openbox2.76c962ebfadcb008b564.png",
-    "static/media/likee-banner.png": "/static/media/likee-banner.da4e2601451b47ce8973.png",
     "static/media/monsterdex3.png": "/static/media/monsterdex3.468e50f7f1833fe2b1c7.png",
     "static/media/monsterdex2.png": "/static/media/monsterdex2.89429b5c25767febb67a.png",
     "static/media/monsterdex4.png": "/static/media/monsterdex4.bba25271d6d7e15fe61f.png",
@@ -22,12 +22,12 @@
     "static/media/likee2.webp": "/static/media/likee2.8bdbadbf0c59c770b81a.webp",
     "static/media/halfbyte-cardback.png": "/static/media/halfbyte-cardback.a47b8761e2044a81adf0.png",
     "index.html": "/index.html",
-    "main.46b57240.css.map": "/static/css/main.46b57240.css.map",
-    "main.991a4028.js.map": "/static/js/main.991a4028.js.map",
+    "main.52a17fa3.css.map": "/static/css/main.52a17fa3.css.map",
+    "main.8d32ace6.js.map": "/static/js/main.8d32ace6.js.map",
     "787.8ad45c4c.chunk.js.map": "/static/js/787.8ad45c4c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46b57240.css",
-    "static/js/main.991a4028.js"
+    "static/css/main.52a17fa3.css",
+    "static/js/main.8d32ace6.js"
   ]
 }
