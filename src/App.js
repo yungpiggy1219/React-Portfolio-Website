@@ -31,8 +31,10 @@ function App() {
   const TRACKING_ID = "G-WN12DDJH7F";
   ReactGA.initialize(TRACKING_ID);
 
+  // Mobile Condition
   const isMobile = window.innerWidth <= 768;
 
+  // Generate Page
   return (
     <div>
       {isMobile ? (
@@ -66,10 +68,7 @@ function App() {
                 <Route path="/contact" element={<Contact />}></Route>
 
                 <Route path="/work/half-byte" element={<HalfaByte />}></Route>
-                <Route
-                  path="/work/likee-xdownloader"
-                  element={<LikeeX />}
-                ></Route>
+                <Route path="/work/likee-xdownloader" element={<LikeeX />}></Route>
                 <Route path="/work/up-cancer" element={<UpCancer />}></Route>
 
                 <Route path="/work/monsterdex" element={<MonsterDex />}></Route>
@@ -81,6 +80,7 @@ function App() {
         <div>
           {/* Desktop layout */}
           <Router>
+            {/* Insert Animated Cursor */}
             <AnimatedCursor color="255,0,122" />
             <Row>
               <Col md={2} className="navBar">

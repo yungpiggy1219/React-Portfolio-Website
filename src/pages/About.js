@@ -15,12 +15,15 @@ export default function About() {
 
       <Row>
         <p>
-          Hi, my name is Yung-Chu Chuang. I’m a UX engineer with design,
-          research, and software engineer skills. My background in Informatics
-          with specialization in Human-Computer Interaction and Art allows me to
-          understand problems from both a technology and creative perspective.
-          My mission is to end user’s misery by bringing the best experience to
-          them.
+          Hello, I'm Yung-Chu Chuang, a versatile UX engineer with a
+          multi-faceted skill set that encompasses design, research, and
+          software engineering. My academic background in Informatics, with a
+          specialization in Human-Computer Interaction, coupled with my creative
+          flair, allows me to approach challenges from both a technological and
+          artistic perspective. My unwavering mission is to revolutionize user
+          experiences by delivering the utmost satisfaction and eliminating user
+          frustrations. Through the fusion of technology and creativity, I aim
+          to provide users with seamless and delightful interactions.
         </p>
       </Row>
 
@@ -82,7 +85,7 @@ export default function About() {
           </p>
         </Col>
       </Row>
-{/*       <div className="hoverUnderline backDiv">
+      {/*       <div className="hoverUnderline backDiv">
         <Nav.Link as={NavLink} to="/❤️">
           More about me :)
         </Nav.Link>
