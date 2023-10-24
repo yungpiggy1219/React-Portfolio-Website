@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import "./App.css";
+import * as React from 'react';
 import AnimatedCursor from "react-animated-cursor";
 import ReactGA from "react-ga4";
 
@@ -27,11 +28,18 @@ import MonsterDex from "./pages/work/MonsterDex";
 
 //import MoreAbout from "./pages/MoreAbout";
 
-import RouteChangeTracker from "./RouteChangeTracker";
+import { useLocation } from "react-router-dom";
 
 function App() {
   const TRACKING_ID = "G-WN12DDJH7F";
   ReactGA.initialize(TRACKING_ID);
+
+  let location = useLocation();
+
+  React.useEffect(() => {
+    // Google Analytics
+    ReactGA("send", "pageview");
+  }, [location]);
 
   // Mobile Condition
   const isMobile = window.innerWidth <= 768;
@@ -39,7 +47,6 @@ function App() {
   // Generate Page
   return (
     <div>
-      <RouteChangeTracker />
       {isMobile ? (
         <div className="d-flex flex-column min-vh-100">
           {/* Mobile layout */}

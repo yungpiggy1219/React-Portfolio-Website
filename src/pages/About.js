@@ -1,8 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 
-import Nav from "react-bootstrap/Nav";
-import { NavLink } from "react-router-dom";
-
 import Button from "react-bootstrap/Button";
 import { Icon } from "@iconify/react";
 
