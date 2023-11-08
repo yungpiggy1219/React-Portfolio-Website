@@ -305,7 +305,7 @@ h6 {
 
 .media {
   width: 25rem;
-  height: 11rem;
+  height: auto;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -402,11 +402,12 @@ h6 {
 @media (max-width: 600px) {
   .wrapper {
     display: block;
-    width: auto;
+    justify-self: center;
   }
 
   .media {
     width: 80vw;
+    height: auto;
   }
 }
 

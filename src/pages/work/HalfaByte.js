@@ -1,4 +1,4 @@
-import { Container, Row, Col} from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import Footer from "../Footer";
 
@@ -42,38 +42,56 @@ export default function HalfaByte() {
         <p>
           <b>Tools</b> Adobe Dimesion | Figma | Illustrator | Blender
         </p>
+
+        <h5>Introduction</h5>
         <p>
-          This is a board game I’m creating on my own. This game is the first
-          game I’ve created and hosted playtesting sessions. Most of my other
-          ideas involve many tokens or meeples, which would have budget issues
-          when manufacturing. I originally designed this game with some
-          constraint, where it will only include cards. The first prototype is
-          made with hand-drawn cards. Later I made a printed prototype with my
-          own printers.
+          Half Byte is a fast-paced card game that I have personally designed,
+          developed, and playtested. This project marks my foray into board game
+          design and has allowed me to explore a range of design tools and
+          concepts. The game was envisioned to be not only engaging but also
+          educational, with a focus on teaching players the fundamentals of
+          Boolean algebra. This case study details the journey from conception
+          to execution and shares insights from the playtesting and crowdfunding
+          experiences.
         </p>
         <p>
-          I wanted this game to be educational where players can learn the
-          basics of boolean algebra. To make this game more accessible around
-          the world, I minimized the use of texts especially on individual
-          cards. I’ve tested the game with players from the age of 8 years old
-          to 50 years old. An 8 year-old might not necessarily fully understand
-          how and why boolean algebra works, they can still understand the big
-          picture.
+          Half Byte! is my maiden board game creation, driven by a desire to
+          introduce an educational yet entertaining card game that simplifies
+          Boolean algebra. Given manufacturing constraints and cost
+          considerations, I opted for a design exclusively featuring cards. The
+          initial prototype involved hand-drawn cards, evolving into a printed
+          prototype created with my own resources.
         </p>
+
+        <h4>Educational Approach</h4>
         <p>
-          I’ve launched this project on Kickstarter once. My goal was set to
-          $4096 and I raised $754 by the end of the campaign. It wasn’t too bad
-          because I did not put up ads. I had 4 backers who backed the digital
-          print-and-play version and 46 backers who backed the physical version.
-          This was a great experience and there is room for improvement.
+          A core objective was to make Half Byte! an educational tool. To
+          achieve this, I minimized the use of textual elements on individual
+          cards to ensure accessibility across languages and age groups.
+          Playtesting sessions, involving players aged 8 to 50, revealed that
+          while younger participants may not fully grasp the intricacies of
+          Boolean algebra, they could still grasp the overarching concepts.
+        </p>
+        <h4>Kickstarter Campaign</h4>
+        <p>
+          I launched a Kickstarter campaign for Half Byte!, setting a funding
+          goal of $4,096. The campaign concluded with $754 raised, a commendable
+          result considering the absence of paid advertising. Four backers
+          supported the digital print-and-play version, while 46 backers backed
+          the physical edition. The campaign provided invaluable experience,
+          highlighting areas for future improvement.
         </p>
         <h5>Explore</h5>
         <Row>
           <Col>
             <div>
               <p>
-                This game is inspired by and based on Boolean Algebra. Not all
-                logic are included to keep the game simple.
+                Half Byte! is inspired by Boolean Algebra, although not all
+                logic concepts were integrated to maintain simplicity. The game
+                comprises a deck of cards, each featuring a unique icon for
+                language-agnostic gameplay. The majority of text on the cards is
+                presented in a "computer language," eliminating the need for
+                translation.
               </p>
             </div>
           </Col>
@@ -106,26 +124,74 @@ export default function HalfaByte() {
           </Col>
         </Row>
         <p>
-          There are 16 “task cards.” Each task card is a “number” in binary. In
-          the background of the card, there are also English and hexadecimal.
+          The game features 16 "task cards," each representing a binary
+          "number." The cards include English and hexadecimal references for
+          clarity. The card backs are influenced by PCB board designs, enhancing
+          the thematic appeal of the game.
         </p>
         <p>The card back is inspired by a PCB board.</p>
 
         <h5>Mockup Rendering</h5>
-        <Row className="galleryP">
-          <div class="wrapper">
+        <Row>
+          <Col>
             <div class="projectMedia">
-              <img src={hbRender1} alt="Box Design Rendering" />
+            <img src={hbRender1} alt="Box Design Rendering" />
             </div>
+          </Col>
+          <Col>
             <div class="projectMedia">
-              <img src={hbRender2} alt="Layout Render with Box" />
+            <img src={hbRender2} alt="Layout Render with Box" />
             </div>
+          </Col>
+          <Col>
             <div class="projectMedia">
-              <img src={hbRender3} alt="Layout Render" />
+            <img src={hbRender3} alt="Layout Render" />
             </div>
-          </div>
+          </Col>
         </Row>
 
+        <h5> Lessons Learned</h5>
+        <p>
+          I discovered the significant value of comprehensive playtesting
+          throughout this project. Engaging in iterative playtesting sessions
+          with a diverse group of players provided essential insights into the
+          dynamics of the game, the clarity of its rules, and the overall user
+          experience. These observations were instrumental in refining game
+          mechanics to ensure that gameplay was engaging and accessible to a
+          wide range of players.
+        </p>
+
+        <p>
+          The process of planning and overseeing a Kickstarter campaign for Half
+          Byte! was a profound learning experience. It underscored the
+          importance of meticulous campaign preparation, effective communication
+          with backers, and the need for a compelling project presentation.
+          Moreover, real-time monitoring of campaign progress was crucial for
+          promptly addressing backer inquiries and making necessary adjustments.
+          This experience deepened my understanding of crowdfunding dynamics and
+          the intricacies of campaign management.
+        </p>
+
+        <p>
+          The design process, encompassing the creation of cards, icons, and
+          card layouts, played a significant role in this project. It
+          highlighted the importance of maintaining a consistent and thematic
+          design throughout the game. My use of design tools such as Adobe
+          Dimension, Figma, Illustrator, and Blender was essential in crafting
+          visually appealing and cohesive game elements. Additionally, the
+          design approach, which minimized text and prioritized universal icons,
+          was effective in ensuring that the game remained accessible and
+          user-friendly to a global audience.
+        </p>
+
+        <p>
+          In summary, the development of Half Byte! - It's a Nybble board game
+          provided valuable lessons in effective playtesting, Kickstarter
+          campaign management, and the design process. These insights have
+          enhanced my board game design skills and project management
+          capabilities, positioning me for future endeavors in the field of game
+          development.
+        </p>
         <div className="mb-3">
           <Button
             href="https://www.kickstarter.com/projects/axltgamestudio/half-byte-its-a-nybble-a-fast-pace-strategic-game"

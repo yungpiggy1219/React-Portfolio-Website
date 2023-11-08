@@ -1,7 +1,8 @@
 //import logo from './logo.svg';
 import "./App.css";
 import AnimatedCursor from "react-animated-cursor";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
+import Hotjar from "@hotjar/browser";
 
 import { Row, Col } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
@@ -31,8 +32,16 @@ function App() {
   const TRACKING_ID = "G-WN12DDJH7F";
   ReactGA.initialize(TRACKING_ID);
 
+  // Hotjar
+  const siteId = 3708511;
+  const hotjarVersion = 6;
+
+  Hotjar.init(siteId, hotjarVersion);
+
+  // Mobile Condition
   const isMobile = window.innerWidth <= 768;
 
+  // Generate Page
   return (
     <div>
       {isMobile ? (
@@ -81,6 +90,7 @@ function App() {
         <div>
           {/* Desktop layout */}
           <Router>
+            {/* Insert Animated Cursor */}
             <AnimatedCursor color="255,0,122" />
             <Row>
               <Col md={2} className="navBar">
