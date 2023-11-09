@@ -99,6 +99,10 @@ h6 {
   font-family: "Agdasima", sans-serif;
 }
 
+.sectionPadding {
+  padding-top: 20vh;
+}
+
 .active {
   font-family: "Agdasima", sans-serif;
   color: #ffe600 !important;
@@ -106,6 +110,11 @@ h6 {
 
 .iconify {
   color: #ff007a;
+  margin-right: 1.5rem;
+}
+
+.timeline .iconify {
+  color: #ffffff;
   margin-right: 1.5rem;
 }
 
@@ -218,6 +227,7 @@ h6 {
   align-items: center;
   justify-content: left;
   margin-left: 5%;
+  overflow-y: scroll;
 }
 
 .container {
