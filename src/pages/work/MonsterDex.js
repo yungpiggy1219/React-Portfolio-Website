@@ -55,12 +55,16 @@ export default function MonsterDex() {
 
         <h5>Problem</h5>
         <p>
-          Existing Pokémon-related apps on the App Store suffered from various
-          issues, including <b>outdated</b> information, <b>frequent crashes</b>
-          , and
-          <b>unattractive user interfaces</b>. These problems created a demand
-          for a more reliable and aesthetically pleasing Pokédex app that would
-          cater to the needs of both Casual Players and Hardcore Players.
+          Existing Pokédex apps on the App Store suffered from various issues, including <b>outdated information</b>, <b>frequent crashes</b>, <b>unattractive user interfaces</b>, <b>poor information architecture</b>, and <b>convoluted user flows</b>. These problems created a demand for a more reliable and aesthetically pleasing Pokédex app that would cater to the needs of both <b>Casual Players</b> and <b>Hardcore Players</b>.
+        </p>
+        <p>
+          The poor information architecture in these apps often led to a frustrating user experience. Users found it difficult to locate the specific information they needed, such as detailed Pokémon statistics, evolutions, and move sets. The lack of a coherent structure within the apps meant that players had to spend an inordinate amount of time navigating through cluttered menus and confusing categories. This not only hampered their gameplay but also made the overall experience less enjoyable.
+        </p>
+        <p>
+          Moreover, the convoluted user flows in these existing Pokédex apps exacerbated the problem. Simple tasks like searching for a Pokémon, viewing its abilities, or accessing its location in the game world became time-consuming and counterintuitive. Players often found themselves lost in a maze of menus, and the lack of a logical progression in their interactions with the app made it challenging to achieve their objectives efficiently.
+        </p>
+        <p>
+          As a result, users were longing for a well-structured and user-friendly Pokédex app that could streamline their access to accurate and up-to-date Pokémon information. The demand was not only for improved aesthetics but also for a more intuitive and efficient information architecture and user flow that could cater to the diverse needs of both Casual Players and Hardcore Players.
         </p>
 
         <h5>Competitor Analysis</h5>
@@ -292,6 +296,6 @@ export default function MonsterDex() {
         </div>
         <Footer />
       </Row>
-    </Container>
+    </Container >
   );
 }
