@@ -15,6 +15,10 @@ export default function Contact() {
                 </Row>
 
                 <Row className='hoverUnderline'>
+                    <a><Icon icon="mdi:github" /><Button href="https://github.com/yungpiggy1219" target="_blank" variant="link" className='custom-btn'>yungpiggy1219</Button></a>
+                </Row>
+
+                <Row className='hoverUnderline'>
                     <a><Icon icon="ic:round-email" /><Button href="mailto:yungchu1219@gmail.com" target="_blank" variant="link" className='custom-btn'>yungchu1219@gmail.com</Button></a>
                 </Row>
 
