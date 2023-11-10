@@ -32,10 +32,12 @@ html {
   /* this makes sure the padding and the border is included in the box sizing */
   box-sizing: border-box;
   overflow-x: hidden !important;
+  max-width: 100%;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+  max-width: 100%;
 }
 
 h1 {
@@ -74,6 +76,36 @@ h6 {
   font-style: italic !important;
 }
 
+.muiBody {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 0.95rem !important;
+}
+
+.muih6 {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: bold !important;
+  font-size: 1.3rem !important;
+}
+
+
+.companyLogo {
+  padding-top: 2;
+  background-color: #3f3f3f;
+  justify-content: center !important;
+  justify-items: center !important;
+  justify-self: center !important;
+  align-items: center !important;
+}
+
+.dotColor{
+  background-color:#ff007a !important;
+  border-color:#ff007a !important;
+}
+
+.dotColorOutline{
+  border-color:#ff007a !important;
+}
+
 .myFooter {
   font-family: "Agdasima", sans-serif;
   margin-top: 0 !important;
@@ -100,7 +132,7 @@ h6 {
 }
 
 .sectionPadding {
-  padding-top: 20vh;
+  padding-top: 5vh;
 }
 
 .active {
@@ -120,6 +152,11 @@ h6 {
 
 .indexText {
   font-size: 0.5rem;
+}
+
+.aboutBanner {
+  width: 75vw !important;
+  overflow-x: hidden !important;
 }
 
 .backDiv {
