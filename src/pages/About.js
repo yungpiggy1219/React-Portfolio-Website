@@ -31,7 +31,7 @@ export default function About() {
 
     <Container>
       <Row className="aboutBanner" >
-        <img src={aboutBanner} />
+        <img src={aboutBanner} alt=""/>
       </Row>
 
       <Row>
@@ -77,6 +77,7 @@ export default function About() {
               src={insightLogo}
               loading="lazy"
               height="70vh"
+              alt="Insight Logo"
             /><br />
           </TimelineContent>
         </TimelineItem>
@@ -128,6 +129,7 @@ export default function About() {
               src={logitechLogo}
               loading="lazy"
               height="50vh"
+              alt="Logitech Logo"
             /><br />
           </TimelineContent>
         </TimelineItem>
@@ -205,6 +207,7 @@ export default function About() {
               src={appcelaLogo}
               loading="lazy"
               height="50vh"
+              alt="Appcela Logo"
             /><br />
           </TimelineContent>
         </TimelineItem>
@@ -344,6 +347,7 @@ export default function About() {
               src={isuLogo}
               loading="lazy"
               height="40vh"
+              alt="Iowa State University Logo"
             /><br />
             <Typography variant="h6" component="span">
               Master of Human Computer Interaction
@@ -370,6 +374,7 @@ export default function About() {
               src={uciLogo}
               loading="lazy"
               height="40vh"
+              alt="UC Irvine Logo"
             /><br />
             <Typography variant="h6" component="span">
               Bachelor of Science (B.S.), Informatics
@@ -385,7 +390,7 @@ export default function About() {
       </Timeline>
 
       <Row className="aboutBanner sectionPadding" >
-        <img src={aboutBanner2} />
+        <img src={aboutBanner2} alt=""/>
       </Row>
 
       {/*       <div className="hoverUnderline backDiv">
