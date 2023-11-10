@@ -327,7 +327,8 @@ h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ffe600;
+  /* background-color: #ffe600; */
+  background-color: #00ffb3;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
   transform: scaleX(0);
