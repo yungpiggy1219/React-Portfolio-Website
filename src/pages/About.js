@@ -68,7 +68,7 @@ export default function About() {
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
-            <TimelineDot className="dotColor">
+            <TimelineDot className="dotColor" >
             </TimelineDot>
             <TimelineConnector />
           </TimelineSeparator>
@@ -76,7 +76,7 @@ export default function About() {
             <img
               src={insightLogo}
               loading="lazy"
-              height="70vh"
+              height="50vw"
               alt="Insight Logo"
             /><br />
           </TimelineContent>
@@ -88,7 +88,7 @@ export default function About() {
             variant="body2"
             color="text.secondary"
           >
-            Jan 2023 - Present
+            Jun 2021 - Dec 2022
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -98,20 +98,17 @@ export default function About() {
           </TimelineSeparator>
           <TimelineContent sx={{ py: '12px', px: 2 }}>
             <Typography className="muih6" component="span">
-              Human Factors Specialist
-            </Typography>
-            <br />
+            Human Factors Specialist
+            </Typography >
             <Stack mt={1} direction="row" spacing={1} flexWrap="wrap" useFlexGap>
               <Chip size="small" label="Usability Study" variant="outlined" />
               <Chip size="small" label="Qualitative Research" variant="outlined" />
               <Chip size="small" label="Recruiting" variant="outlined" />
               <Chip size="small" label="Task Analysis" variant="outlined" />
             </Stack>
-
             {/* <Typography className="muiBody">
-              Conducted iterative in-depth user interviews and usability studies for over 7 projects, applying user feedback and insights to inform an iterative design process that ultimately increased task success rates by over 11%. Additionally, designed and executed over 10 human factors studies, including task analyses, heuristic evaluations, knowledge tasks, and simulated use, resulting in a 12% reduction in use errors. Ensured that medical hardware and software devices met stringent FDA regulations and usability standards, guaranteeing both user-friendliness and full compliance with safety and effectiveness guidelines.
+              Managed and conducted over 10 experimental research projects that incorporated both qualitative and quantitative data analysis, ultimately leading to a 10% enhancement in product satisfaction. Led the end-to-end UX process, from concept to launch, encompassing ideation, thorough business requirement reviews, and close cooperation with software engineers. Developed high-level design concepts and functional requirements for applications, contributing to an overall 10% increase in user satisfaction. Collaborated seamlessly within a multidisciplinary team to define and refine user stories, prioritize features in alignment with business objectives, and ensure cohesiveness with the company's strategic vision.
             </Typography> */}
-
           </TimelineContent>
         </TimelineItem>
 
@@ -128,7 +125,7 @@ export default function About() {
             <img
               src={logitechLogo}
               loading="lazy"
-              height="50vh"
+              height="50vw"
               alt="Logitech Logo"
             /><br />
           </TimelineContent>
@@ -206,7 +203,7 @@ export default function About() {
             <img
               src={appcelaLogo}
               loading="lazy"
-              height="50vh"
+              height="50vw"
               alt="Appcela Logo"
             /><br />
           </TimelineContent>
@@ -334,7 +331,7 @@ export default function About() {
             variant="body2"
             color="text.secondary"
           >
-            Aug 2023 - Aug 2025 (Expected)
+            Aug 2023 - Aug 2025
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector />
@@ -346,7 +343,7 @@ export default function About() {
             <img
               src={isuLogo}
               loading="lazy"
-              height="40vh"
+              height="30vw"
               alt="Iowa State University Logo"
             /><br />
             <Typography variant="h6" component="span">
