@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cefd068.css",
-    "main.js": "/static/js/main.c274e32a.js",
+    "main.css": "/static/css/main.b1cd21e4.css",
+    "main.js": "/static/js/main.e328a4a3.js",
     "static/js/787.8ad45c4c.chunk.js": "/static/js/787.8ad45c4c.chunk.js",
     "static/media/likee-mockup.png": "/static/media/likee-mockup.d2aac89383c2e754078d.png",
+    "static/media/aboutBanner2.JPG": "/static/media/aboutBanner2.9101acc0cade61a3b797.JPG",
     "static/media/halfbyte-openbox.png": "/static/media/halfbyte-openbox.4b7daac789a825b1458a.png",
     "static/media/likee-banner.png": "/static/media/likee-banner.a449979dfa37fdb16fe3.png",
+    "static/media/aboutBanner.jpg": "/static/media/aboutBanner.090bef863a4e99cb2b09.jpg",
     "static/media/halfbyte-carddesign.png": "/static/media/halfbyte-carddesign.27ba6c46d9c82637964d.png",
     "static/media/halfbyte-banner.png": "/static/media/halfbyte-banner.56942105b14121d49c33.png",
     "static/media/halfbyte-box.png": "/static/media/halfbyte-box.e267083335d87f40cc68.png",
@@ -15,19 +17,24 @@
     "static/media/monsterdex-banner.png": "/static/media/monsterdex-banner.8fb9b2a05ece45f9556e.png",
     "static/media/halfbyte-openbox2.png": "/static/media/halfbyte-openbox2.76c962ebfadcb008b564.png",
     "static/media/monsterdex3.png": "/static/media/monsterdex3.468e50f7f1833fe2b1c7.png",
+    "static/media/logitech.png": "/static/media/logitech.067b276ab5db3c878932.png",
     "static/media/monsterdex2.png": "/static/media/monsterdex2.89429b5c25767febb67a.png",
     "static/media/monsterdex4.png": "/static/media/monsterdex4.bba25271d6d7e15fe61f.png",
     "static/media/likee3.webp": "/static/media/likee3.be7115bf88589762904b.webp",
     "static/media/likee1.webp": "/static/media/likee1.80e0de88f96a87c3ce45.webp",
     "static/media/likee2.webp": "/static/media/likee2.8bdbadbf0c59c770b81a.webp",
+    "static/media/insightLogo.PNG": "/static/media/insightLogo.f259ddcbf3adfedda5a9.PNG",
+    "static/media/uciLogo.jpg": "/static/media/uciLogo.a6ae49023baccd4e1c8d.jpg",
+    "static/media/isuLogo.svg": "/static/media/isuLogo.0a28e7594fae102a65919219d33afaf9.svg",
     "static/media/halfbyte-cardback.png": "/static/media/halfbyte-cardback.a47b8761e2044a81adf0.png",
+    "static/media/appcela.svg": "/static/media/appcela.2c76cfe2feaf467bb90d25c6132327f8.svg",
     "index.html": "/index.html",
-    "main.9cefd068.css.map": "/static/css/main.9cefd068.css.map",
-    "main.c274e32a.js.map": "/static/js/main.c274e32a.js.map",
+    "main.b1cd21e4.css.map": "/static/css/main.b1cd21e4.css.map",
+    "main.e328a4a3.js.map": "/static/js/main.e328a4a3.js.map",
     "787.8ad45c4c.chunk.js.map": "/static/js/787.8ad45c4c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cefd068.css",
-    "static/js/main.c274e32a.js"
+    "static/css/main.b1cd21e4.css",
+    "static/js/main.e328a4a3.js"
   ]
 }
