@@ -4,7 +4,7 @@ This is my first React project. I decided to convert my original Wordpress desig
 
 
 ## Designed With
- [Figma](https://www.figma.com/).
+- [Figma](https://www.figma.com/)
 
 
 ## Built With
