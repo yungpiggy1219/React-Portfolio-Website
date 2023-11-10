@@ -101,10 +101,6 @@ function App() {
                       YC
                     </Navbar.Brand>
                     <Nav.Link
-                      className="hoverUnderline"
-                      as={NavLink}
-                      to="/"
-                      end
                     >
                       home <span className="indexText">0</span>
                     </Nav.Link>
