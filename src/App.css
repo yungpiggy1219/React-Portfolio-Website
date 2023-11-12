@@ -195,6 +195,11 @@ h6 {
   margin: 0.2rem; */
 }
 
+.personaMedia img{
+  max-width: 20%;
+  height: auto;
+}
+
 .projectMedia img {
   max-width: 100%;
   height: auto;

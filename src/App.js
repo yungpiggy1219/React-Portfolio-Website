@@ -18,6 +18,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Work from "./pages/Work";
+import Gallery from "./pages/Gallery";
 
 import HalfaByte from "./pages/work/HalfaByte";
 import UpCancer from "./pages/work/UpCancer";
@@ -96,6 +97,7 @@ function App() {
                   <Route path="/" element={<Home />}></Route>
                   <Route path="/about" element={<About />}></Route>
                   <Route path="/work" element={<Work />}></Route>
+                  <Route path="/gallery" element={<Gallery />}></Route>
                   <Route path="/contact" element={<Contact />}></Route>
 
                   <Route path="/work/half-byte" element={<HalfaByte />}></Route>

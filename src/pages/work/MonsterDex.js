@@ -7,12 +7,37 @@ import { NavLink } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 
 import { Icon } from "@iconify/react";
+import Chip from "@mui/material/Chip";
+import Stack from "@mui/material/Stack";
+
+import ArchitectureIcon from '@mui/icons-material/Architecture';
+import AppleIcon from '@mui/icons-material/Apple';
+import BarChartIcon from '@mui/icons-material/BarChart';
+import ExtensionIcon from '@mui/icons-material/Extension';
+import SmartToyIcon from '@mui/icons-material/SmartToy';
+import WidgetsIcon from '@mui/icons-material/Widgets';
+import Groups3Icon from '@mui/icons-material/Groups3';
+import SchemaIcon from '@mui/icons-material/Schema';
 
 import monsterdex from "../../images/monsterdex-banner.png";
 import monsterdex1 from "../../images/monsterdex1.png";
 import monsterdex2 from "../../images/monsterdex2.png";
 import monsterdex3 from "../../images/monsterdex3.png";
 import monsterdex4 from "../../images/monsterdex4.png";
+import monsterIA from "../../images/monsterIA.png";
+
+import comp1 from "../../images/comp1.PNG";
+import comp2 from "../../images/comp2.PNG";
+import comp3 from "../../images/comp3.PNG";
+import comp4 from "../../images/comp4.PNG";
+import comp5 from "../../images/comp5.PNG";
+import comp6 from "../../images/comp6.PNG";
+import compReview from "../../images/compReview.png";
+
+import avatar1 from "../../images/avatar1.png";
+import avatar2 from "../../images/avatar2.png";
+
+import Typography from '@mui/material/Typography';
 
 export default function MonsterDex() {
   return (
@@ -24,24 +49,55 @@ export default function MonsterDex() {
           </Nav.Link>
         </div>
         <img src={monsterdex} alt="MonsterDex iOS App Development" />
-        <h1 className="mb-3">/MONSTERDEX iOS App</h1>
-        <h6 className="mb-3">UI/UX Design</h6>
-        <p>MonsterDex is a reference iOS app for Pokemon.</p>
-        <p>
-          <b>Role</b> UI/UX Designer{" "}
-        </p>
-        <p>
-          <b>Team Member </b> 1 iOS Developer{" "}
-        </p>
-        <p>
-          <b>Duration</b> March 2023 – Ongoing{" "}
-        </p>
-        <p>
-          <b>Methods</b> Competitor Analysis | Market Research{" "}
-        </p>
-        <p>
-          <b>Tools</b> Figma
-        </p>
+        <h1 className="mb-3 mt-3">/MONSTERDEX iOS App</h1>
+
+      </Row>
+      <Row>
+        {/* <p>
+          <b>Duration</b>
+          <Stack direction="row" mt={2} spacing={1} flexWrap="wrap" useFlexGap>
+            <Chip icon={<AccessTimeIcon />} label="March 2023 – Ongoing" variant="outlined" />
+          </Stack>
+        </p> */}
+        <Col>
+          <p>
+            <b>My Role</b>
+            <Stack direction="row" mt={2} spacing={1} flexWrap="wrap" useFlexGap>
+              <Chip icon={<ExtensionIcon />} label="UX/UI Designer" variant="outlined" />
+            </Stack>
+          </p>
+          <p>
+            <b>Team Member </b>
+            <Stack direction="row" mt={2} spacing={1} flexWrap="wrap" useFlexGap>
+              <Chip icon={<AppleIcon />} label="iOS Developer" variant="outlined" />
+            </Stack>
+          </p>
+        </Col>
+
+        <Col>
+          <p>
+            <b>Methods</b>
+            <Stack direction="row" mt={2} spacing={1} flexWrap="wrap" useFlexGap>
+              <Chip icon={<BarChartIcon />} label="Competitor Analysis" variant="outlined" />
+              <Chip icon={<SmartToyIcon />} label="Prototyping" variant="outlined" />
+              <Chip icon={<WidgetsIcon />} label="Wireframing" variant="outlined" />
+              <Chip icon={<Groups3Icon />} label="User Archetypes" variant="outlined" />
+              <Chip icon={<ArchitectureIcon />} label="Information Architecture" variant="outlined" />
+              <Chip icon={<SchemaIcon />} label="Task Analysis" variant="outlined" />
+            </Stack>
+          </p>
+        </Col>
+
+
+        <Col>
+          <p>
+            <b>Tools</b>
+            <Stack direction="row" mt={2} spacing={1}>
+              <Chip icon={<Icon icon="devicon:figma" />} label="Figma" variant="outlined" />
+            </Stack>
+          </p>
+        </Col>
+
         <h5>Introduction</h5>
         <p>
           The MonsterDex iOS app project aimed to fill a significant gap in the
@@ -49,8 +105,7 @@ export default function MonsterDex() {
           Store. As a UI/UX Designer, my role was to create a user-friendly and
           visually appealing Pokédex app. Working closely with an iOS developer,
           we set out to build an application that not only addressed the
-          shortcomings of existing Pokémon apps but also served as a showcase
-          piece for my friend's portfolio.
+          shortcomings of existing Pokémon apps.
         </p>
 
         <h5>Problem</h5>
@@ -63,51 +118,24 @@ export default function MonsterDex() {
         <p>
           Moreover, the convoluted user flows in these existing Pokédex apps exacerbated the problem. Simple tasks like searching for a Pokémon, viewing its abilities, or accessing its location in the game world became time-consuming and counterintuitive. Players often found themselves lost in a maze of menus, and the lack of a logical progression in their interactions with the app made it challenging to achieve their objectives efficiently.
         </p>
+
+        <h5>Solution</h5>
+        <img src={monsterdex1} alt="MonsterDex Mockup" />
+        <br />
+        <h5 >Desgin Process</h5>
         <p>
-          As a result, users were longing for a well-structured and user-friendly Pokédex app that could streamline their access to accurate and up-to-date Pokémon information. The demand was not only for improved aesthetics but also for a more intuitive and efficient information architecture and user flow that could cater to the diverse needs of both Casual Players and Hardcore Players.
+          As part of the process, we critically reviewed the designs of existing
+          Pokémon-related apps and other successful mobile apps. This helped us
+          identify design strengths and weaknesses and served as a foundation
+          for developing our unique design.
+        </p>
+        <p>
+          We used these insights to create initial wireframes and prototypes.
+          Through an iterative process, we continuously improved the design
+          based on user feedback and design reviews. This allowed us to refine
+          the interface and ensure it aligned with user preferences.
         </p>
 
-        <h5>Competitor Analysis</h5>
-        <p>
-          In our competitor analysis, we identified several key players in the
-          Pokémon app space. For example, "PokéGuide" offered comprehensive
-          information on Pokémon, types, and evolutions but suffered from an
-          outdated user interface and frequent crashes. This analysis guided our
-          design decisions by highlighting the need for a reliable and visually
-          appealing app. Based on our competitor research, we identified two
-          distinct user categories:
-        </p>
-        <div>
-          Casual Player
-          <ul>
-            <li>
-              These users seek basic information, including:
-              <ul>
-                <li>View Pokémon by types or generation</li>
-                <li>Finding the location of specific Pokémon</li>
-                <li>Understanding how and when a Pokémon evolves</li>
-              </ul>
-            </li>
-          </ul>
-          Hardcord Player
-          <ul>
-            <li>
-              These dedicated players aspire to excel in their Pokémon journey
-              by accessing information such as:
-              <ul>
-                <li>
-                  Tracking their PokéDex collection progress in their current
-                  game
-                </li>
-                <li>
-                  Utilizing a team builder tool to assemble the most effective
-                  team
-                </li>
-                <li>Gaining insights into hatching mechanics</li>
-              </ul>
-            </li>
-          </ul>
-        </div>
         <h5>Market Research</h5>
         <p>
           Market research revealed a growing demand for team-building and
@@ -116,25 +144,115 @@ export default function MonsterDex() {
           casual and hardcore segments of the Pokémon community.
         </p>
 
-        <h5>Design Process</h5>
+        <h4>Competitor Analysis</h4>
+        <p>We evaluated the user experiences of competitors' products to identify strengths, weaknesses, and opportunities.
+          We analyzed competitor features, design choices, and overall strategies.
+        </p>
         <p>
-          As part of the process, we critically reviewed the designs of existing
-          Pokémon-related apps and other successful mobile apps. This helped us
-          identify design strengths and weaknesses and served as a foundation
-          for developing our unique design.
+          Most common issues we found include <b>outdated information</b>, <b>frequent crashes</b>, <b>unattractive user interfaces</b>, <b>poor information architecture</b>, and <b>convoluted user flows</b>. These problems created a demand for a more reliable and aesthetically pleasing Pokédex app
+        </p>
+        <Row>
+          <img src={compReview} alt="Pokedex Compeitor Reviews" />
+        </Row>
+        <Row>
+          <p>
+            The poor information architecture in these apps often led to a frustrating user experience. Users found it difficult to locate the specific information they needed, such as detailed Pokémon statistics, evolutions, and move sets. The lack of a coherent structure within the apps meant that players had to spend an inordinate amount of time navigating through cluttered menus and confusing categories. This not only hampered their gameplay but also made the overall experience less enjoyable.
+          </p>
+          <p>
+            Moreover, the convoluted user flows in these existing Pokédex apps exacerbated the problem. Simple tasks like searching for a Pokémon, viewing its abilities, or accessing its location in the game world became time-consuming and counterintuitive. Players often found themselves lost in a maze of menus, and the lack of a logical progression in their interactions with the app made it challenging to achieve their objectives efficiently.
+          </p>
+        </Row>
+
+
+        <Row className="align-items-center">
+
+          <Col>
+            <div class="projectMedia">
+              <img src={comp1} alt="Pokedex Compeitor" />
+            </div>
+          </Col>
+          <Col>
+            <div class="projectMedia">
+              <img src={comp2} alt="Pokedex Compeitor" />
+            </div>
+          </Col>
+          <Col>
+            <div class="projectMedia">
+              <img src={comp3} alt="Pokedex Compeitor" />
+            </div>
+          </Col>
+          <Col>
+            <div class="projectMedia">
+              <img src={comp4} alt="Pokedex Compeitor" />
+            </div>
+          </Col>
+          <Col>
+            <div class="projectMedia">
+              <img src={comp5} alt="Pokedex Compeitor" />
+            </div>
+          </Col>
+          <Col>
+            <div class="projectMedia">
+              <img src={comp6} alt="Pokedex Compeitor" />
+            </div>
+          </Col>
+        </Row>
+
+        <h4>User Archetypes</h4>
+        <p>
+          We identified several key players in the
+          Pokémon app space. For example, "PokéGuide" offered comprehensive
+          information on Pokémon, types, and evolutions but suffered from an
+          outdated user interface and frequent crashes. This analysis guided our
+          design decisions by highlighting the need for a reliable and visually
+          appealing app. Based on our competitor research, we identified two
+          distinct user categories:
         </p>
 
-        <p>
-          We used these insights to create initial wireframes and prototypes.
-          Through an iterative process, we continuously improved the design
-          based on user feedback and design reviews. This allowed us to refine
-          the interface and ensure it aligned with user preferences.
-        </p>
+        <Row>
+          <Col>
+            <div class="personaMedia">
+              <img src={avatar1} alt="Casual Player Avatar" />
+            </div>
+            <Typography component="div" variant="h5">
+              Casual Player
+            </Typography>
+            <Typography variant="subtitle1" color="text.secondary" component="div">
+              These users seek basic information, including:
+              <ul>
+                <li>View Pokémon by types or generation</li>
+                <li>Finding the location of specific Pokémon</li>
+                <li>Understanding how and when a Pokémon evolves</li>
+              </ul>
+            </Typography>
+          </Col>
 
-        <h5>Design</h5>
-        <h4>Mockup</h4>
-        <img src={monsterdex1} alt="MonsterDex Mockup" />
-        <h5>Challenges and Solutions</h5>
+          <Col>
+            <div class="personaMedia">
+              <img src={avatar2} alt="Hardcord Player Avatar" />
+            </div>
+            <Typography component="div" variant="h5">
+              Hardcord Player
+            </Typography>
+            <Typography variant="subtitle1" color="text.secondary" component="div">
+              These dedicated players aspire to excel in their Pokémon journey
+              by accessing information such as:
+              <ul>
+                <li>Tracking their PokéDex collection progress in their current game</li>
+                <li>Utilizing a team builder tool to assemble the most effective team</li>
+                <li>Gaining insights into hatching mechanics</li>
+              </ul>
+            </Typography>
+          </Col>
+        </Row>
+
+        <h4>Information Architecture</h4>
+          <img src={monsterIA} alt="MonsterDex Information Architecture" />
+
+
+
+
+        <h5>Challenges</h5>
         <p>
           A significant challenge during the project was aligning our design
           vision with the technical feasibility. Open and honest communication
