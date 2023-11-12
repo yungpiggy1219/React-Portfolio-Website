@@ -108,8 +108,15 @@ h6 {
 
 .myFooter {
   font-family: "Agdasima", sans-serif;
-  margin-top: 0 !important;
-  margin-bottom: 5%;
+  margin: auto;
+  margin-top: 3vh !important;
+  margin-bottom: 1vh !important;
+  display: flex;
+  width: 20vw !important;
+}
+
+.myFooter IconButton{
+  background-color: #b9b9b9 !important;
 }
 
 .nav-link {
@@ -125,6 +132,15 @@ h6 {
 
 .heroTitle {
   font-family: "Agdasima", sans-serif;
+  height: 80vh;
+  padding-top: 40vh;
+}
+
+.heroBanner .media{
+  width: 40vw !important;
+  margin: auto;
+  margin-top: 8vh;
+  margin-bottom: 15vh;
 }
 
 .sectionTitle {
@@ -138,6 +154,7 @@ h6 {
 .active {
   font-family: "Agdasima", sans-serif;
   color: #ffe600 !important;
+  background-color: #ff007a;
 }
 
 .iconify {
@@ -243,6 +260,7 @@ h6 {
 
 .myTitle {
   color: #ff007a !important;
+  background-color: #ffffff !important;
   font-family: "Agdasima", sans-serif;
   margin-top: 4%;
   width: 5rem;
@@ -259,7 +277,7 @@ h6 {
   position: absolute;
   display: grid;
   justify-content: start;
-  background-color: #ffe600;
+  background-color: #ffe600 !important;
 }
 
 .mainPage {
@@ -279,6 +297,10 @@ h6 {
 .myGallery {
   background-color: #ff007a;
   width: 100%;
+}
+
+.contact-btn {
+  padding: 5px;
 }
 
 .custom-btn {
@@ -379,7 +401,7 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 98%;
   height: 100%;
   background: #ff007a;
   transition: all 0.9s ease;
@@ -398,6 +420,7 @@ h6 {
 
 .galleryP {
   width: 70vw !important;
+  margin-top: 30vh !important;
 }
 
 .galleryP .nav-link {
@@ -409,9 +432,9 @@ h6 {
 
 .media:hover .layer {
   opacity: 1;
-  width: 100%;
+  width: 98%;
   transition: all 0.5s ease;
-  background-color: #ffe600;
+  background-color: #ffe60067;
 }
 
 .media:hover .layer .nav-link {
@@ -423,7 +446,6 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ffe600;
   justify-content: center;
   align-items: center;
 }

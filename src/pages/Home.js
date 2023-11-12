@@ -32,7 +32,7 @@ export default function Home() {
                 </h1>
             </Row>
             <h5>Featured</h5>
-            <Row className="galleryP heroBanner">
+            <Row className="heroBanner">
                 <div class="media">
                     <div class="layer">
                         <Nav.Link as={NavLink} to="/work/monsterdex">

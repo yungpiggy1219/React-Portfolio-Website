@@ -96,7 +96,7 @@ function App() {
                     <Nav.Link className="hoverUnderline" as={NavLink} to="/" end>  home <span className="indexText">0</span></Nav.Link>
                     <Nav.Link className="hoverUnderline" as={NavLink} to="/about" > about <span className="indexText">1</span> </Nav.Link>
                     <Nav.Link className="hoverUnderline" as={NavLink} to="/work" > work <span className="indexText">2</span> </Nav.Link>
-                    <Nav.Link className="hoverUnderline" as={NavLink} to="/contact" > contact <span className="indexText">3</span> </Nav.Link>
+                    {/* <Nav.Link className="hoverUnderline" as={NavLink} to="/contact" > contact <span className="indexText">3</span> </Nav.Link> */}
                   </Nav>
                 </Row>
               </Col>
@@ -107,7 +107,7 @@ function App() {
                   <Route path="/about" element={<About />}></Route>
                   <Route path="/work" element={<Work />}></Route>
                   <Route path="/gallery" element={<Gallery />}></Route>
-                  <Route path="/contact" element={<Contact />}></Route>
+                  {/* <Route path="/contact" element={<Contact />}></Route> */}
 
                   <Route path="/work/half-byte" element={<HalfaByte />}></Route>
                   <Route path="/work/likee-xdownloader" element={<LikeeX />} ></Route>
@@ -136,7 +136,7 @@ function App() {
 
                     </Col>
                     <Row className="justify-content-center mt-3">
-                      Made with ❤️ by Yung-Chu Chuang 🥰
+                    👾 2023 ©️ Made with ❤️ by Yung-Chu Chuang 🥰
                     </Row>
                   </Row>
                 </Container>
