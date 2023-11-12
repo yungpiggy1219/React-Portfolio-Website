@@ -25,6 +25,7 @@ import monsterdex2 from "../../images/monsterdex2.png";
 import monsterdex3 from "../../images/monsterdex3.png";
 import monsterdex4 from "../../images/monsterdex4.png";
 import monsterIA from "../../images/monsterIA.png";
+import monsterWF from "../../images/monsterWF.png";
 
 import comp1 from "../../images/comp1.PNG";
 import comp2 from "../../images/comp2.PNG";
@@ -229,10 +230,10 @@ export default function MonsterDex() {
 
           <Col>
             <div class="personaMedia">
-              <img src={avatar2} alt="Hardcord Player Avatar" />
+              <img src={avatar2} alt="Hardcore Player Avatar" />
             </div>
             <Typography component="div" variant="h5">
-              Hardcord Player
+              Hardcore Player
             </Typography>
             <Typography variant="subtitle1" color="text.secondary" component="div">
               These dedicated players aspire to excel in their Pokémon journey
@@ -247,7 +248,10 @@ export default function MonsterDex() {
         </Row>
 
         <h4>Information Architecture</h4>
-          <img src={monsterIA} alt="MonsterDex Information Architecture" />
+        <img src={monsterIA} alt="MonsterDex Information Architecture" />
+
+        <h4>Wireframing</h4>
+        <img src={monsterWF} alt="MonsterDex Wireframing" />
 
 
 

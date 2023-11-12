@@ -4,7 +4,7 @@ import AnimatedCursor from "react-animated-cursor";
 import ReactGA from "react-ga4";
 import Hotjar from "@hotjar/browser";
 
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import {
@@ -13,6 +13,9 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
+import { Icon } from '@iconify/react';
+import Stack from 'react-bootstrap/Stack';
+import Button from 'react-bootstrap/Button';
 
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -20,10 +23,16 @@ import Home from "./pages/Home";
 import Work from "./pages/Work";
 import Gallery from "./pages/Gallery";
 
+import IconButton from "@mui/material/IconButton"
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 import HalfaByte from "./pages/work/HalfaByte";
 import UpCancer from "./pages/work/UpCancer";
 import LikeeX from "./pages/work/LikeeX";
 import MonsterDex from "./pages/work/MonsterDex";
+import { colors } from "@mui/material";
 //import ProjectPlanet from "./pages/work/ProjectPlanet";
 //import SharkSimulator from "./pages/work/SharkSimulator";
 
@@ -108,12 +117,38 @@ function App() {
                   {/* <Route path='/work/shark-simulator' element={< SharkSimulator />}></Route> */}
                   {/* <Route path='/❤️' element={< MoreAbout />}></Route> */}
                 </Routes>
+                <Container className="myFooter align-middle justify-content-center">
+                  <Row className="myFooter">
+                    <Col className="iconBtn">
+                      <IconButton sx={{color: "#FF007a", backgroundColor: "#FFe600", ":hover": {color: "#ffffff", backgroundColor: "#ff007a"}}} aria-label="Linkedin" href="https://www.linkedin.com/in/yung-chu-chuang/" target="_blank" className="contact-btn">
+                        <LinkedInIcon />
+                      </IconButton>
+                    </Col>
+                    <Col className="iconBtn">
+                      <IconButton sx={{color: "#FF007a", backgroundColor: "#FFe600", ":hover": {color: "#ffffff", backgroundColor: "#ff007a"}}} aria-label="GitHub" href="https://github.com/yungpiggy1219" target="_blank" className="contact-btn">
+                        <GitHubIcon />
+                      </IconButton>
+                    </Col>
+                    <Col className="iconBtn">
+                      <IconButton sx={{color: "#FF007a", backgroundColor: "#FFe600", ":hover": {color: "#ffffff", backgroundColor: "#ff007a"}}}  aria-label="add an alarm" href="mailto:yungchu1219@gmail.com" target="_blank" className="contact-btn" >
+                        <EmailIcon />
+                      </IconButton>
+
+                    </Col>
+                    <Row className="justify-content-center mt-3">
+                      Made with ❤️ by Yung-Chu Chuang 🥰
+                    </Row>
+                  </Row>
+                </Container>
               </Col>
             </Row>
+
           </Router>
+
         </div>
-      )}
-    </div>
+      )
+      }
+    </div >
   );
 }
 export default App;
