@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.de7ad84a.css",
-    "main.js": "/static/js/main.1a437bf2.js",
+    "main.css": "/static/css/main.f5b48fd9.css",
+    "main.js": "/static/js/main.35f103b6.js",
     "static/js/787.8ad45c4c.chunk.js": "/static/js/787.8ad45c4c.chunk.js",
     "static/media/monsterdex-banner.png": "/static/media/monsterdex-banner.49c003c3f3a95efcf70c.png",
     "static/media/likee-mockup.png": "/static/media/likee-mockup.d2aac89383c2e754078d.png",
     "static/media/monsterdex1.png": "/static/media/monsterdex1.e17ee65ef2e15812b2ee.png",
+    "static/media/likeex1.png": "/static/media/likeex1.b5389143b0bab6c51730.png",
     "static/media/compReview.png": "/static/media/compReview.babfcb3b73ba799fade8.png",
+    "static/media/likee-banner.png": "/static/media/likee-banner.011737b03f55a599da70.png",
+    "static/media/likeeComp1.png": "/static/media/likeeComp1.8689149444f92adb9033.png",
+    "static/media/likeeComp5.png": "/static/media/likeeComp5.16e3e42d95a89400d767.png",
+    "static/media/likeeComp3.png": "/static/media/likeeComp3.34c13559f02caf23120c.png",
     "static/media/comp6.PNG": "/static/media/comp6.d632e9fba853992f8fe0.PNG",
     "static/media/aboutBanner2.JPG": "/static/media/aboutBanner2.9101acc0cade61a3b797.JPG",
     "static/media/halfbyte-openbox.png": "/static/media/halfbyte-openbox.4b7daac789a825b1458a.png",
     "static/media/avatar2.png": "/static/media/avatar2.3f470c2f848e1e659c15.png",
     "static/media/avatar1.png": "/static/media/avatar1.7ad6f7a6d8c1b75ed5f3.png",
     "static/media/comp2.PNG": "/static/media/comp2.65bd75526a4dac297159.PNG",
-    "static/media/likee-banner.png": "/static/media/likee-banner.a449979dfa37fdb16fe3.png",
     "static/media/comp3.PNG": "/static/media/comp3.22c8e06d1e671a5bcd13.PNG",
     "static/media/aboutBanner.jpg": "/static/media/aboutBanner.090bef863a4e99cb2b09.jpg",
+    "static/media/leetcard-banner.png": "/static/media/leetcard-banner.850cf15242fbb3267076.png",
     "static/media/halfbyte-carddesign.png": "/static/media/halfbyte-carddesign.27ba6c46d9c82637964d.png",
+    "static/media/likeeComp4.png": "/static/media/likeeComp4.47913d6381af1abfd8d9.png",
     "static/media/comp1.PNG": "/static/media/comp1.84798f2984e0e3998794.PNG",
     "static/media/halfbyte-banner.png": "/static/media/halfbyte-banner.56942105b14121d49c33.png",
     "static/media/halfbyte-box.png": "/static/media/halfbyte-box.e267083335d87f40cc68.png",
@@ -26,6 +32,7 @@
     "static/media/monsterWF.png": "/static/media/monsterWF.abc4368a879ab48f5032.png",
     "static/media/halfbyte-openbox2.png": "/static/media/halfbyte-openbox2.76c962ebfadcb008b564.png",
     "static/media/comp4.PNG": "/static/media/comp4.b2f7d9273a9bb5200af2.PNG",
+    "static/media/likeeComp2.png": "/static/media/likeeComp2.50b260d3cc03471c005c.png",
     "static/media/monsterIA.png": "/static/media/monsterIA.325c90f6104d4ec62f2b.png",
     "static/media/monsterdex3.png": "/static/media/monsterdex3.468e50f7f1833fe2b1c7.png",
     "static/media/logitech.png": "/static/media/logitech.067b276ab5db3c878932.png",
@@ -40,12 +47,12 @@
     "static/media/halfbyte-cardback.png": "/static/media/halfbyte-cardback.a47b8761e2044a81adf0.png",
     "static/media/appcela.svg": "/static/media/appcela.2c76cfe2feaf467bb90d25c6132327f8.svg",
     "index.html": "/index.html",
-    "main.de7ad84a.css.map": "/static/css/main.de7ad84a.css.map",
-    "main.1a437bf2.js.map": "/static/js/main.1a437bf2.js.map",
+    "main.f5b48fd9.css.map": "/static/css/main.f5b48fd9.css.map",
+    "main.35f103b6.js.map": "/static/js/main.35f103b6.js.map",
     "787.8ad45c4c.chunk.js.map": "/static/js/787.8ad45c4c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de7ad84a.css",
-    "static/js/main.1a437bf2.js"
+    "static/css/main.f5b48fd9.css",
+    "static/js/main.35f103b6.js"
   ]
 }
