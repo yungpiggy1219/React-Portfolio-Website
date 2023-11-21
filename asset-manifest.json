@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f5b48fd9.css",
-    "main.js": "/static/js/main.35f103b6.js",
+    "main.css": "/static/css/main.9b23f309.css",
+    "main.js": "/static/js/main.e3663b2d.js",
     "static/js/787.8ad45c4c.chunk.js": "/static/js/787.8ad45c4c.chunk.js",
     "static/media/monsterdex-banner.png": "/static/media/monsterdex-banner.49c003c3f3a95efcf70c.png",
     "static/media/likee-mockup.png": "/static/media/likee-mockup.d2aac89383c2e754078d.png",
@@ -47,12 +47,12 @@
     "static/media/halfbyte-cardback.png": "/static/media/halfbyte-cardback.a47b8761e2044a81adf0.png",
     "static/media/appcela.svg": "/static/media/appcela.2c76cfe2feaf467bb90d25c6132327f8.svg",
     "index.html": "/index.html",
-    "main.f5b48fd9.css.map": "/static/css/main.f5b48fd9.css.map",
-    "main.35f103b6.js.map": "/static/js/main.35f103b6.js.map",
+    "main.9b23f309.css.map": "/static/css/main.9b23f309.css.map",
+    "main.e3663b2d.js.map": "/static/js/main.e3663b2d.js.map",
     "787.8ad45c4c.chunk.js.map": "/static/js/787.8ad45c4c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5b48fd9.css",
-    "static/js/main.35f103b6.js"
+    "static/css/main.9b23f309.css",
+    "static/js/main.e3663b2d.js"
   ]
 }
