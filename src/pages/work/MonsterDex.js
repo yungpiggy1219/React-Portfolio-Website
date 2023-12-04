@@ -40,13 +40,15 @@ import avatar2 from "../../images/avatar2.png";
 
 import Typography from '@mui/material/Typography';
 
+import React, { useEffect } from 'react';
+
 export default function MonsterDex() {
   return (
     <Container>
       <Row>
         <div className="hoverUnderline backDiv">
           <Nav.Link className="p" as={NavLink} to="/work">
-            <Icon style={{ fontSize: "36px" }} icon="bx:arrow-back" /> Back
+            <Icon style={{ fontSize: "36px" }} icon="bx:arrow-back" /> All Work
           </Nav.Link>
         </div>
         <img src={monsterdex} alt="MonsterDex iOS App Development" />
@@ -413,10 +415,9 @@ export default function MonsterDex() {
         </div>
         <div className="hoverUnderline backDiv">
           <Nav.Link as={NavLink} to="/work">
-            <Icon style={{ fontSize: "36px" }} icon="bx:left-arrow-alt" /> Back
+            <Icon style={{ fontSize: "36px" }} icon="bx:left-arrow-alt" /> All Work
           </Nav.Link>
         </div>
-        <Footer />
       </Row>
     </Container >
   );

@@ -24,7 +24,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Passion+One");
 @import url("https://fonts.googleapis.com/css2?family=Moirai+One");
 /*@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One');*/
-@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39"); /*Barcode Font*/
+@import url("https://fonts.googleapis.com/css2?family=Libre+Barcode+39");
+/*Barcode Font*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700");
 @import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@700");
 
@@ -97,13 +98,13 @@ h6 {
   align-items: center !important;
 }
 
-.dotColor{
-  background-color:#ff007a !important;
-  border-color:#ff007a !important;
+.dotColor {
+  background-color: #ff007a !important;
+  border-color: #ff007a !important;
 }
 
-.dotColorOutline{
-  border-color:#ff007a !important;
+.dotColorOutline {
+  border-color: #ff007a !important;
 }
 
 .myFooter {
@@ -115,7 +116,7 @@ h6 {
   width: 20vw !important;
 }
 
-.myFooter IconButton{
+.myFooter IconButton {
   background-color: #b9b9b9 !important;
 }
 
@@ -136,7 +137,7 @@ h6 {
   padding-top: 40vh;
 }
 
-.heroBanner .media{
+.heroBanner .media {
   width: 40vw !important;
   margin: auto;
   margin-top: 8vh;
@@ -185,6 +186,7 @@ h6 {
 
 .backDiv .nav-link {
   color: #ff007a !important;
+  background-color: #ffffff !important;
 }
 
 .video-container {
@@ -204,15 +206,15 @@ h6 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  /*   overflow: hidden;
+  overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0.2rem; */
+  margin: 0.2rem;
 }
 
-.personaMedia img{
+.personaMedia img {
   max-width: 20%;
   height: auto;
 }
@@ -287,7 +289,7 @@ h6 {
   align-items: center;
   justify-content: left;
   margin-left: 5%;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .container {
@@ -401,9 +403,9 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 98%;
+  width: 100%;
   height: 100%;
-  background: #ff007a;
+  background: #ffe6f2;
   transition: all 0.9s ease;
   margin: 1rem !important;
 }
@@ -420,7 +422,20 @@ h6 {
 
 .galleryP {
   width: 70vw !important;
-  margin-top: 30vh !important;
+  margin-top: 10vh !important;
+}
+
+.recentWork {
+  width: 80% !important;
+  margin-top: 5vh !important;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem;
 }
 
 .galleryP .nav-link {
@@ -432,9 +447,9 @@ h6 {
 
 .media:hover .layer {
   opacity: 1;
-  width: 98%;
+  width: 100%;
   transition: all 0.5s ease;
-  background-color: #ffe60067;
+  background-color: #fff6a267;
 }
 
 .media:hover .layer .nav-link {
@@ -454,6 +469,7 @@ h6 {
   .container {
     width: 90vw !important;
   }
+
   .navbar-expand {
     justify-content: center !important;
   }
@@ -486,6 +502,11 @@ h6 {
   }
 }
 
+.myParticles {
+  position: fixed;
+  z-index: -10;
+}
+
 @media (max-width: 768px) {
   .navbar-nav {
     display: flex;
@@ -495,6 +516,7 @@ h6 {
     height: 100%;
     padding: 0 !important;
   }
+
   .nav-link {
     flex: 0 0 50%;
     text-align: center;

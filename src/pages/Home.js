@@ -31,12 +31,12 @@ export default function Home() {
                     </div>
                 </h1>
             </Row>
-            <h5>Featured</h5>
-            <Row className="heroBanner">
+            <h4>my recent work</h4>
+            <Row className="galleryP recentWork">
                 <div class="media">
                     <div class="layer">
                         <Nav.Link as={NavLink} to="/work/monsterdex">
-                            {/* + UX/UI Design */}
+                            + UX/UI Design
                         </Nav.Link>
                     </div>
                     <img src={monsterdex} alt="MonsterDex iOS Development" />

@@ -240,7 +240,6 @@ export default function HalfaByte() {
             </Nav.Link>
           </div>
         </Row>
-        <Footer />
       </Row>
     </Container>
   );
