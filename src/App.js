@@ -40,6 +40,7 @@ import { loadSlim } from "tsparticles-slim";
 
 import scrollToTop from "./scrollToTop";
 
+
 function App() {
   // Google Analytics
   const TRACKING_ID = "G-WN12DDJH7F";
@@ -131,9 +132,8 @@ function App() {
                   {/* <Route path='/❤️' element={< MoreAbout />}></Route> */}
                 </Routes>
 
-                <Container className="myFooter align-middle justify-content-center">
-
-                  <Row className="myFooter">
+                <Container className="myFooter">
+                  <Row>
                     <Col className="iconBtn">
                       <IconButton sx={{ color: "#FF007a", backgroundColor: "#FFe600", ":hover": { color: "#ffffff", backgroundColor: "#ff007a" } }} aria-label="Linkedin" href="https://www.linkedin.com/in/yung-chu-chuang/" target="_blank" className="contact-btn">
                         <LinkedInIcon />
@@ -148,11 +148,10 @@ function App() {
                       <IconButton sx={{ color: "#FF007a", backgroundColor: "#FFe600", ":hover": { color: "#ffffff", backgroundColor: "#ff007a" } }} aria-label="add an alarm" href="mailto:yungchu1219@gmail.com" target="_blank" className="contact-btn" >
                         <EmailIcon />
                       </IconButton>
-
                     </Col>
-                    <Row className="justify-content-center mt-3">
-                      👾 2023 ©️ Made with ❤️ by Yung-Chu Chuang 🥰
-                    </Row>
+                  </Row>
+                  <Row className="justify-content-center mt-3 ">
+                    👾 2023 ©️ Made with ❤️ by Yung-Chu Chuang 🥰
                   </Row>
                 </Container>
               </Col>
