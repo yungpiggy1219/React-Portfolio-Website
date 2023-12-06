@@ -41,6 +41,14 @@ body {
   max-width: 100%;
 }
 
+myWorkTitle {
+  font-family: "Agdasima", sans-serif !important;
+  font-size: 2rem;
+  color: #ff007a;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
 h1 {
   font-weight: 800 !important;
   color: #ff007a;
@@ -82,6 +90,15 @@ h6 {
   font-size: 0.95rem !important;
 }
 
+.muih5 {
+  font-family: "Roboto", sans-serif !important;
+  margin-top: 0.8rem !important;
+  font-size: 1.5rem !important;
+  font-weight: 800 !important;
+  line-height: 130% !important;
+  color: #3f3f3f;
+}
+
 .muih6 {
   font-family: "Montserrat", sans-serif !important;
   font-weight: bold !important;
@@ -113,11 +130,18 @@ h6 {
   margin-top: 3vh !important;
   margin-bottom: 1vh !important;
   display: flex;
-  width: 20vw !important;
+  white-space: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .myFooter IconButton {
   background-color: #b9b9b9 !important;
+  margin: auto !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .nav-link {
