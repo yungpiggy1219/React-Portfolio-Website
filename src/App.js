@@ -33,11 +33,6 @@ import { colors } from "@mui/material";
 //import SharkSimulator from "./pages/work/SharkSimulator";
 //import MoreAbout from "./pages/MoreAbout";
 
-import { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import { loadSlim } from "tsparticles-slim";
-
 import scrollToTop from "./scrollToTop";
 
 
@@ -55,15 +50,6 @@ function App() {
   // Mobile Condition
   const isMobile = window.innerWidth <= 768;
 
-  // TSParticles Background
-  const particlesInit = async (main) => {
-    console.log(main);
-
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
-    await loadFull(main);
-  };
   // Generate Page
 
   return (
